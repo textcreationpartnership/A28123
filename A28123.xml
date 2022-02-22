@@ -1,0 +1,728 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bibliotheca novissima, or, A Catalogue of books on divers subjects containing, I. Books lately printed in England, II. Books newly reprinted, III. Books now in the press, with a short account of the particular design of several of them : together with a catalogue of books lately printed, now printing and reprinting in France, Germany, Holland, &amp;c.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1693</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 101 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A28123</idno>
+            <idno type="STC">Wing B2844</idno>
+            <idno type="STC">ESTC R34271</idno>
+            <idno type="EEBO-CITATION">14173367</idno>
+            <idno type="OCLC">ocm 14173367</idno>
+            <idno type="VID">102164</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A28123)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 102164)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1564:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Bibliotheca novissima, or, A Catalogue of books on divers subjects containing, I. Books lately printed in England, II. Books newly reprinted, III. Books now in the press, with a short account of the particular design of several of them : together with a catalogue of books lately printed, now printing and reprinting in France, Germany, Holland, &amp;c.</title>
+               </titleStmt>
+               <extent>[2], 30 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for the booksellers of London and Westminster, and to be sold by Randal Taylor ...,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>June, 1693.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catalogs, Booksellers' --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-01</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2013-01</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:102164:1"/>
+            <pb facs="tcp:102164:1" rendition="simple:additions"/>
+            <p>
+               <hi>Bibliotheca Noviſſima.</hi> OR A CATALOGUE OF BOOKS On Divers Subjects.
+<list>
+                  <head>CONTAINING,</head>
+                  <item>I. <hi>Books Lately Printed in</hi> ENGLAND.</item>
+                  <item>II. <hi>Books newly Reprinted.</hi>
+                  </item>
+                  <item>III. <hi>Books Now in the Preſs: With a ſhort account of the particular Deſign of ſeveral of them.</hi>
+                  </item>
+               </list> Together with A Catalogue of BOOKS lately Printed, now Printing and Reprinting, in <hi>France, Germany, Holland,</hi> &amp;c.</p>
+            <p>
+               <hi>J<g ref="char:V">Ʋ</g>NE</hi> 1693. Printed for the Bookſellers of <hi>London</hi> and <hi>Weſtminſter,</hi> and to be Sold by <hi>Randal Taylor</hi> near <hi>Stationers-Hall.</hi>
+            </p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:102164:2"/>
+            <head>To the Reader.</head>
+            <p>THE Catalogues of Books Printed in <hi>London</hi> that have been Publiſhed of late Years, relating the Titles of the Books only, are not ſufficient to give the Reader a due Knowledge of what they contain. The intent therefore of this Catalogue is not only to give the Titles of all the Books that ſhall from time to time be printed; but alſo a particu<g ref="char:EOLhyphen"/>lar and impartial Account of the Deſign of each (if they have any) and wherein they differ from others on the ſame Subject, and the Texts of all Sermons. By this means Perſons eſpecially that are diſtant from <hi>London,</hi> and have not an Opportunity of ſeeing the Books themſelves, may be the better informed of their <g ref="char:V">Ʋ</g>ſe: and this not only of the Books printed here in <hi>England,</hi> but alſo of thoſe printed be<g ref="char:EOLhyphen"/>yond Sea in <hi>France, Germany, Holland,</hi> &amp;c. Together with an Account of what Books are printing or preparing for the Preſs, there as well as here in <hi>England,</hi> as far as we can have knowledge.</p>
+            <p>This is our Deſign, but we cannot ſay it is here ſo well performed as we could wiſh, by reaſon of the ſhort time and the little aſſiſtance the Publiſhers have had, tho they gave no<g ref="char:EOLhyphen"/>tice to all Book-ſellers. By what is done it may be judged what would have been, had a reaſonable aſſiſtance been given, and what may be done hereafter; this being intended to be publiſhed as often as there ſhall be occaſion; notice being in due time given; Book-ſellers are deſired to ſend the Books they would have Inſerted, to Mr. <hi>Randal Taylor</hi> near <hi>Stationers-Hall,</hi> which ſhall be carefully return'd after an account is taken of them, and the Titles, <hi>&amp;c.</hi> inſerted Gratis. Alſo if any Author thinks fit to ſend any particu<g ref="char:EOLhyphen"/>lar account of his own Work, it ſhall be likewiſe inſerted, if it appear agreeable to truth.</p>
+            <p>This will be of equal advantage to both Buyer and Sel<g ref="char:EOLhyphen"/>ler; ſtudious Perſons being as deſirous of knowing what good Books come abroad, as the Publiſhers can be of having them well known; it is therefore preſumed ſuch aſſiſtance will hereafter be given, that the Publiſhers may be encouraged to continue it.</p>
+         </div>
+      </front>
+      <body>
+         <div type="catalogue_of_books">
+            <pb facs="tcp:102164:2"/>
+            <head>A Catalogue of Books lately Printed, and now Printing.</head>
+            <div type="part">
+               <head>Divinity.</head>
+               <p>THE Genuine Epiſtles of the Apoſtolical Fathers St: <hi>Bar<g ref="char:EOLhyphen"/>nabas,</hi> St. <hi>Ignatius,</hi> St. <hi>Clement,</hi> St. <hi>Polycarp,</hi> the Shep<g ref="char:EOLhyphen"/>herd of <hi>Hermas,</hi> and the Martyrdoms of St. <hi>Ignatius</hi> and St. <hi>Polycarp;</hi> Written by thoſe who were preſent at their Sufferings; being, together with the Holy Scriptures of the New Teſtament, a complete Collection of the moſt primitive Antiquity, for about one hundred and fifty years after Chriſt: Tranſlated and Publiſhed, with a large preliminary Diſcourſe, relating to the ſeveral Treatiſes here put together, by <hi>William Wake</hi> D. D. Chap<g ref="char:EOLhyphen"/>lain in Ordinary to Their Majeſties, and Preacher to the Honoura<g ref="char:EOLhyphen"/>ble Society of <hi>Grays-Inn.</hi> Printed for <hi>Richard Sare</hi> at <hi>Grays-Inn-Gate. Octavo.</hi>
+               </p>
+               <p>A New Hiſtory of Eccleſiaſtical Writers: Containing an ac<g ref="char:EOLhyphen"/>count of the Authors of the ſeveral Books of the <hi>Old</hi> and <hi>New Te<g ref="char:EOLhyphen"/>ſtament;</hi> of the Lives and Writings of the Primitive Fathers; a judicious Abridgment and Catalogue of their Works; their various Editions, and Cenſures determining the Genuine and Spurious. To<g ref="char:EOLhyphen"/>gether with a <hi>Judgment</hi> upon their Style and Doctrine. Alſo, a Compendious Hiſtory of the Councils; with Chronological Tables to the whole. Written in <hi>French,</hi> by <hi>Lewis Ellies du Pin,</hi> Doctor of the <hi>Sorbon:</hi> And <hi>Regius</hi> Profeſſor of Divinity at <hi>Paris.</hi> Vo<g ref="char:EOLhyphen"/>lume I. and II. Containing the Authors that flouriſhed in the four firſt Ages of the Church. Folio. Price 16 <hi>s.</hi>
+               </p>
+               <p>The Third, Fourth, Fifth, and Sixth Volumes of the ſame, which bring down the Hiſtory to the end of the Eighth Century, are now in the Preſs, and will be finiſhed next Term. Price to Subſcribers 18 <hi>s.</hi> in ſheets. All printed for <hi>Abel Swall</hi> and <hi>T. Childe</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> at the Weſt end of St. <hi>Pauls</hi> Church-yard.</p>
+               <p>* This Book does effectually contain all that the Title promiſes, and probably more than a Stranger to it can expect; The abridg<g ref="char:EOLhyphen"/>ment of the Writings of the Fathers being done with very great judgment and integrity, perhaps beyond any that has been before, and all Hiſtorical matters concerning the Church moſt faithfully related: The Doctrine of all thoſe great Men is here very empha<g ref="char:EOLhyphen"/>tically and impartially laid down, an exact account is given of the Controverſies they were engaged in, in defence of the Truth, and all their Arguments, with thoſe of their Enemies are moſt ingenu<g ref="char:EOLhyphen"/>ouſly ſummed up: The Lives of the Authors are ſhort but very
+<pb n="2" facs="tcp:102164:3"/>pathetically related; and where any extraordinary accidents, ſuch as the Perſecution, Puniſhment, or Exaltation of them has happen'd, he has always been very particular in giving an account of it. A<g ref="char:EOLhyphen"/>mong Eccleſiaſtical Writers, he puts all the Biſhops that Wrote, tho but Letters to their Clergy, which they having always done upon any thing extraordinary happening among them, gives this Author an opportunity of relating the occaſion, which he never fails to do with all imaginable ingenuity: By theſe means a very particular account is given of all Eccleſiaſtical Affairs in theſe times; ſo that his Book is not only a <hi>Bibliotheca</hi> of Eccleſiaſtical Writers, but a very complete and excellent Eccleſiaſtical Hiſtory. The Author (as plainly appears by his Work) is a Perſon of great Ingenuity as well as Learning; he began to write it about the year 1685. when the differences were high between the Pope and the <hi>Gallican</hi> Church; which gave him a liberty of ſpeaking more free<g ref="char:EOLhyphen"/>ly, than he would have been permitted at another time, as appears by the condemnation he has lately ſuffered at <hi>Paris,</hi> his Book being there publickly burnt by Authority; where it ſeems they ſa<g ref="char:EOLhyphen"/>crifice every thing to their intereſt at this time; but the reputation it has every where elſe had, has been very conſiderable, all Parties having allowed it to be impartially and fairly Written; Our Clergy eſpecially have given it very favourable Characters in many of their Writings, among which theſe two, the Right Reverend the Pre<g ref="char:EOLhyphen"/>ſent Biſhop of <hi>Worceſter,</hi> and the Learned Dr. <hi>Cave.</hi>
+               </p>
+               <p>A practical diſcourſe of Repentance, rectifying the miſtakes a<g ref="char:EOLhyphen"/>bout it, eſpecially ſuch as lead either to deſpair or preſumption, perſwading and directing to the true practice of it, and demonſtra<g ref="char:EOLhyphen"/>ting the invalidity of a death-bed repentance; by <hi>William Payne,</hi> D. D. Rector of St. <hi>Mary White-Chappel,</hi> and Chaplain in Ordi<g ref="char:EOLhyphen"/>nary to Their Majeſties, 8<hi>vo.</hi> ſold by <hi>J. Wyat</hi> at the <hi>Roſe</hi> in St. <hi>Pauls Church-yard.</hi>
+               </p>
+               <p>The fourth Volume, containing one hundred and fifty Sermons on ſeveral parts of Scriptures; by the late Reverend and Learned Divine <hi>Thomas Manton,</hi> D. D. in two parts, the firſt containing 74 Sermons, the ſecond 76 Sermons; with an Alphabetical Table to the whole, <hi>fol.</hi> Printed for <hi>J. Robinſon</hi> at the <hi>Golden Lion</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>A Practical Diſcourſe of Prayer, by <hi>Edw. Pelling,</hi> D. D. Chap<g ref="char:EOLhyphen"/>lain in Ordinary to Their Majeſties, and Rector of <hi>Petworth</hi> in <hi>Suſſex,</hi> 8<hi>vo.</hi> Price bound 1 <hi>s.</hi> Printed for <hi>W. Crook</hi> at the <hi>Green Dragon</hi> without <hi>Temple-Bar.</hi>
+               </p>
+               <p>* This Book ſhews the Motives that kindle in us a ſpirit of Devo<g ref="char:EOLhyphen"/>tion, alſo the manner and way how to increaſe them for the due performance of Prayer.</p>
+               <p>A Practical diſcourſe of Charity in its ſeveral Branches, and of the reaſonableneſs and uſeful nature of this great Chriſtian Virtue, by <hi>Edw. Pelling</hi> D. D. Chaplain in Ordinary to Their Majeſties, and
+<pb n="3" facs="tcp:102164:3"/>Rector of <hi>Petworth</hi> in <hi>Suſſex,</hi> 8<hi>vo.</hi> both printed for <hi>William Crook</hi> at the <hi>Green Dragon</hi> without <hi>Temple-bar.</hi>
+               </p>
+               <p>A practical diſcourſe of patience; ſetting forth the excellency, uſefulneſs, and rewards thereof; by a Divine of the Church of <hi>England,</hi> 8<hi>vo.</hi> Printed for <hi>S. Lowndes</hi> over againſt <hi>Exeter Change</hi> in the <hi>Strand.</hi>
+               </p>
+               <p>The Works of <hi>Thomas Goodwin,</hi> D. D. ſometime Preſident of <hi>Magdalen College</hi> in <hi>Oxford,</hi> the third Volume, containing diſ<g ref="char:EOLhyphen"/>courſes, 1. Of an unregenerate man's guiltineſs before God, in re<g ref="char:EOLhyphen"/>ſpect of ſin and puniſhment. 2. Of man's reſtoration by Grace. 3. Of Chriſt the Mediator, <hi>Fol.</hi> printed for <hi>J. Robinſon</hi> in St. <hi>Paul</hi>'s <hi>Church-yard,</hi> and — <hi>Manton</hi> in the <hi>Poultrey,</hi> and <hi>J. Salusbury</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>Practical diſcourſes upon ſeveral divine ſubjects, Vol 2. written by <hi>John Norris,</hi> M. A. Rector of <hi>Bemerton</hi> near <hi>Sarum,</hi> 8<hi>vo.</hi>
+               </p>
+               <p>Practical diſcourſes upon ſeveral divine ſubjects, Vol. 3. written by <hi>John Norris,</hi> M. A. Rector of <hi>Bemerton</hi> near <hi>Sarum,</hi> 8<hi>vo.</hi> both printed for <hi>S. Manſhip</hi> at the <hi>black Bull</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>A ſecond Volume of Diſcourſes or Sermons on ſeveral Scri<g ref="char:EOLhyphen"/>ptures; by <hi>Ezek. Hopkins</hi> late Lord Biſhop of <hi>London-derry,</hi> 8<hi>vo.</hi> printed for <hi>Nath. Ranew</hi> at the <hi>Kings-Arms</hi> in St. <hi>Paul's Church-yard.</hi>
+               </p>
+               <p>Divine and moral diſcourſes on divers ſubjects, 12<hi>o.</hi> printed for <hi>S. Keeble</hi> at the <hi>Turks-Head</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>Annotations upon ſome difficult Texts in all the Books of the <hi>New Teſtament;</hi> by Sir <hi>Norton Knatchbull</hi> Knight and Baronet in 8<hi>vo.</hi> printed for <hi>W. Graves</hi> Bookſeller in <hi>Cambridge.</hi>
+               </p>
+               <p>Millennianiſm, or Chriſt's Thouſand years Reign upon earth con<g ref="char:EOLhyphen"/>ſidered in a familiar Letter to a Friend; wherein are all the Opinions of the Ancient Fathers and Primitive Chriſtians concerning this Doctrine ſet forth, 8<hi>vo.</hi> price bound 1 <hi>s.</hi> Printed for <hi>W. Crook</hi> at the <hi>Green Dragon</hi> without <hi>Temple-bar.</hi>
+               </p>
+               <p>This Book ſhews the Opinions of the Rabbins about the Reign of the <hi>Meſſiah</hi> on Earth, alſo that of the Fathers, as <hi>Papias, Ju<g ref="char:EOLhyphen"/>ſtin, Irenaeus, Athenagoras, Clemens, Tertullian, Lactantius, Damaſus,</hi> St. <hi>Jerom,</hi> &amp;c. and explains ſuch Texts of Scripture as have been made uſe of about it.</p>
+               <p>A New Family-book, or the true Intereſt of Families; being di<g ref="char:EOLhyphen"/>rections to Parents and Children, and to thoſe who are inſtead of Parents, ſhewing them their ſeveral duties, and how they may be happy in one another; together with ſeveral prayers for Families and Children, and Graces before and after meat; to which is an<g ref="char:EOLhyphen"/>nexed a diſcourſe about the right way of improving our Time, by <hi>James Kirkwood</hi> Rector of <hi>Aſtwick</hi> in <hi>Bedfordſhire;</hi> with a Preface by Dr. <hi>Horneck</hi> printed for <hi>J. Taylor</hi> at the Ship in St. <hi>Paul</hi>'s <hi>Church-yard,</hi> and <hi>J. Everingham</hi> at the Star in <hi>Lud<g ref="char:EOLhyphen"/>gate-ſtreet.</hi>
+               </p>
+               <pb n="4" facs="tcp:102164:4"/>
+               <p>The Book of the Revelation paraphraſed, with Annotations on each Chapter, whereby it is made plain to the meaneſt capacity, 4<hi>to.</hi> printed for <hi>Will. Marſhall</hi> in <hi>Newgate-ſtreet,</hi> and <hi>J. Salusbury</hi> in <hi>Cornhill.</hi>
+               </p>
+               <p>Sacramental Diſcourſes on ſeveral Texts, before and after the Lord's Supper; with a Paraphraſe on the Lord's Prayer; by <hi>John Shower,</hi> 12<hi>o.</hi> printed for <hi>A. Chandler, S. Clement,</hi> and <hi>S. Wade</hi> at the <hi>Surgeon's-arms</hi> in <hi>Alderſgate-ſtreet,</hi> the <hi>Swan</hi> in St. <hi>Paul</hi>'s <hi>Church-yard,</hi> and <hi>Bible</hi> under the <hi>Piazza</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>Practical Reflections on the late Earthquakes in <hi>Jamaica, Eng<g ref="char:EOLhyphen"/>land, Sicily, Maltha,</hi> &amp;c. <hi>Anno</hi> 1692. with a particular Hiſtorical Account of thoſe other Earthquakes, by <hi>John Shower,</hi> 8<hi>vo.</hi> price 1 <hi>s.</hi> 6 <hi>d.</hi> printed for <hi>J. Salusbury</hi> in <hi>Cornhil,</hi> and <hi>A. Chandler</hi> in <hi>Alderſgate-ſtreet.</hi>
+               </p>
+               <p>A Diſcourſe concerning Divine Providence in relation to Natio<g ref="char:EOLhyphen"/>nal Judgments; printed for <hi>T. Bennet</hi> at the <hi>Half-moon</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>Liturgia Tigurina:</hi> or the Book of Common prayer and Ad<g ref="char:EOLhyphen"/>miniſtration of the Sacraments, and other Eccleſiaſtical Rites and Ceremonies uſually practiſed, and ſolemnly performed in all the Churches and Chapples of the City, and <hi>Canton</hi> of <hi>Zurich</hi> in <hi>Swit<g ref="char:EOLhyphen"/>zerland,</hi> and in ſome other adjacent Countries; as by their Ca<g ref="char:EOLhyphen"/>nons and Eccleſiaſtical Laws they are appointed, and as by the ſu<g ref="char:EOLhyphen"/>preme power of the Senate of <hi>Zurich</hi> they are authorized, eſtab<g ref="char:EOLhyphen"/>liſhed, and commanded; with the Orders of the Church, faithfully tranſlated out of the <hi>Helvetian,</hi> by <hi>John Conrade Werndly,</hi> for<g ref="char:EOLhyphen"/>merly Miniſter of the <hi>French</hi> and <hi>Dutch</hi> Congregation of <hi>Santoft</hi> in the Iſle of <hi>Axholm</hi> in the County of <hi>Lincoln,</hi> and now Miniſter of <hi>Wraisbury cum Langley</hi> in the County of <hi>Bucks:</hi> printed for <hi>R. Baldwin</hi> in <hi>Warwick-lane.</hi>
+               </p>
+               <p>Family-devotions for Sunday-evenings throughout the year; being practical diſcourſes, with ſuitable prayers; by <hi>Theo<g ref="char:EOLhyphen"/>philus Dorrington;</hi> Author of the reformed devotion, 8<hi>vo.</hi> prin<g ref="char:EOLhyphen"/>ted for <hi>John Wyat</hi> at the <hi>Roſe</hi> in St. <hi>Paul</hi> s <hi>Church-yard.</hi>
+               </p>
+               <p>* The Deſign of this Book is to revive Family Worſhip, contain<g ref="char:EOLhyphen"/>ing a Sermon and a Prayer to be read in a Family every Sunday evening. In this Volume there are 13 Sermons and ſo many Prayers for one quarter of the year: The Author deſigns ſuch ano<g ref="char:EOLhyphen"/>ther Volume towards the Winter, and hereafter ſo many more as will complete a courſe for the whole year.</p>
+               <p>Brief directions for our more devout behaviour in time of Di<g ref="char:EOLhyphen"/>vine Service, with a ſhort Rationale on the Common-prayer, by <hi>H. C.</hi> price 4 <hi>d.</hi> printed for <hi>Jonathan Robinſon,</hi> at the <hi>Golden Lion</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>Converſation in Heaven; being Devotions conſiſting of Medita<g ref="char:EOLhyphen"/>tions and Prayers, on ſeveral conſiderable ſubjects in practical Di<g ref="char:EOLhyphen"/>vinity: Written for raiſing the decayed ſpirit of piety, by <hi>Lawrence
+<pb n="5" facs="tcp:102164:4"/>Smith,</hi> L. L. D. Fellow of St. <hi>John</hi>'s College in <hi>Oxford,</hi> 8<hi>vo.</hi> prin<g ref="char:EOLhyphen"/>ted for <hi>T. Speed</hi> at the three <hi>Crowns</hi> near the <hi>Royal Exchange, Cornhil.</hi>
+               </p>
+               <p>Serious and ſeaſonable Advice to the <hi>Engliſh</hi> Souldiers of His Majeſties Army, 12<hi>o.</hi> printed for <hi>B. Aylmer</hi> at the three <hi>Pigeons</hi> in <hi>Cornhil,</hi> and <hi>W. Rogers</hi> at the <hi>Sun</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>The folly and unreaſonableneſs of Atheiſm, demonſtrated from the advantage and pleaſure of a religious life, the faculties of hu<g ref="char:EOLhyphen"/>man ſouls, the ſtructure of animal bodies, and the origin and frame of the World, in eight Sermons, preached at the Lecture founded by the Honourable <hi>Robert Boyle,</hi> Eſq; in the firſt year 1692. by <hi>Richard Bentley,</hi> M. A. Chaplain to the Lord Biſhop of <hi>Worceſter:</hi> 4<hi>to.</hi> any of the Sermons may be had ſingle. prin<g ref="char:EOLhyphen"/>ted for <hi>H. Mortlock</hi> at the <hi>Phoenix</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>A Sermon preached before the Queen at <hi>Whitehall, April</hi> 9th. 1693. concerning the ſacrifice and ſatisfaction of Chriſt on <hi>Heb.</hi> 9.26. by <hi>John</hi> Lord Archbiſhop of <hi>Canterbury.</hi> Publiſhed by Her Majeſties ſpecial Command, 4<hi>to.</hi> printed for <hi>Brab. Aylmer</hi> at the three <hi>Pigeons</hi> in <hi>Cornhil,</hi> and <hi>W. Rogers</hi> at the <hi>Sun</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>A Sermon concerning the Unity of the Divine Nature, and the Bleſſed Trinity, on 1 <hi>Tim.</hi> 2.5. By <hi>John</hi> Lord Archbiſhop of <hi>Canterbury.</hi>
+               </p>
+               <p>A Sermon preached before the King and Queen at <hi>Whitehall, Mar.</hi> 12. 1692. being the ſecond Sunday in Lent, on <hi>Mat.</hi> 5.43, 44. both printed for <hi>Brab. Aylmer,</hi> at the three <hi>Pigeons</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>A Sermon preached before the Queen at <hi>Whitehall,</hi> on <hi>Wedneſ<g ref="char:EOLhyphen"/>day, March</hi> 15. 1692. on <hi>Phil.</hi> 4.11. by <hi>Charles Hickman,</hi> D. D. Chaplain in ordinary to Their Majeſties; publiſhed by Her Ma<g ref="char:EOLhyphen"/>jeſties ſpecial Command, 4<hi>to.</hi>
+               </p>
+               <p>The Death of King <hi>Charles</hi> I. prov'd a down-right Murder, with the aggravations of it; in a Sermon at St. <hi>Botolphs Aldgate, London, Jan.</hi> 30. 1693. on <hi>Matth.</hi> 19.18. to which are added ſome juſt Reflections upon ſome late Papers concerning that Kings Book; by <hi>Rich. Hollingſworth,</hi> D. D. 4<hi>to.</hi>
+               </p>
+               <p>A Sermon preached before the Queen at <hi>Whitehall,</hi> on <hi>Wedneſ<g ref="char:EOLhyphen"/>day March</hi> 22. 1692. being the fourth <hi>Wedneſday</hi> in <hi>Lent</hi> on 2 <hi>Pet.</hi> 1.4. by <hi>J. Lambe</hi> Rector of <hi>Wheathampſtead</hi> in <hi>Hertford<g ref="char:EOLhyphen"/>ſhire,</hi> and Chaplain in ordinary to Their Majeſties; publiſhed by Her Majeſties ſpecial Command, 4<hi>to.</hi>
+               </p>
+               <p>A Sermon preached before the Queen at <hi>Whitehall</hi> on <hi>Eaſter</hi>-day, 1693. on <hi>Theſſ.</hi> 4.18. by <hi>E. Young</hi> Fellow of <hi>Wincheſter</hi> College, and Chaplain in Ordinary to Their Majeſties; publiſhed by Her Majeſties ſpecial Command, 4<hi>to.</hi> theſe four printed for <hi>W. Kettilby</hi> at the <hi>Biſhop</hi>'s-<hi>Head</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>A Compariſon between a ſincere Penitent and a juſt Perſon; in a Sermon preach'd before the Queen <hi>March</hi> 8. 1693. By <hi>Thomas
+<pb n="6" facs="tcp:102164:5"/>Mannyngham,</hi> D. D. Chaplain to Their Majeſties, and Rector of St. <hi>Andrews Holbourn,</hi> 4<hi>to.</hi> printed for <hi>W. Crook</hi> at the <hi>Green Dragon</hi> without <hi>Temple-bar,</hi> and <hi>S. Smith</hi> at the Princes Arms in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The great danger and uncertainty of Death-bed Repentance, in a Sermon, at the Funeral of a young Man at <hi>Chiſwick</hi> in <hi>Middle-ſex,</hi> by <hi>J. Ellesby</hi> Vicar there, on <hi>Heb.</hi> 3.7, 8, printed for <hi>Will. Crook,</hi> at the <hi>Green Dragon</hi> without <hi>Temple-bar.</hi>
+               </p>
+               <p>A diſcourſe concerning the nature and ſatisfaction of a good and inoffenſive Conſcience; in a Sermon preached in the Cathe<g ref="char:EOLhyphen"/>dral Church of <hi>Wincheſter,</hi> at the Aſſizes held there, <hi>April</hi> 11. 1693. by <hi>Robert Eyre,</hi> A. M. Fellow of the College near <hi>Winche<g ref="char:EOLhyphen"/>ſter,</hi> 4<hi>to.</hi>
+               </p>
+               <p>A Sermon preached before the King and Queen at <hi>Whitehall, March</hi> 12. 1692. being the ſecond Sunday in Lent, upon <hi>Mat.</hi> 5.43, 44. by <hi>Richard</hi> L. Biſhop of <hi>Bath</hi> and <hi>Wells,</hi> 4<hi>to.</hi> both printed for <hi>B. Aylmer</hi> at the three <hi>Pigeons</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>A Sermon preached to a Country Auditory, upon the laſt Thankſ<g ref="char:EOLhyphen"/>giving day, on the 144 <hi>Pſalm,</hi> ver. 9, 10. by <hi>Sam. Clerke,</hi> B. D. Miniſter of <hi>Arheſdem</hi> in <hi>Eſſex,</hi> 4<hi>to.</hi>
+               </p>
+               <p>A Sermon preached before the Houſe of Commons, on <hi>Jan.</hi> 30. 1693. by <hi>R. Bynns,</hi> Fellow of <hi>Trin. Coll. Cambr.</hi> and Chaplain to the Duke of <hi>Somerſet,</hi> on <hi>Iſa.</hi> 57.1. both printed for <hi>William Crook,</hi> at the <hi>Green Dragon</hi> without <hi>Temple-bar.</hi>
+               </p>
+               <p>A Sermon ſetting forth the duties of <hi>Iriſh</hi> Proteſtants, ariſing from the <hi>Iriſh</hi> Rebellion, 1641. and the <hi>Iriſh</hi> Tyranny, 1688. preached before His Excellency the Lord Lieutenant, and the Lords Spiritual and Temporal, and divers of the Commons, in <hi>Chriſt-Church Dublin, Octob.</hi> 23. 1692. by <hi>Edward</hi> Lord Biſhop of <hi>Cork</hi> and <hi>Roſs;</hi> printed at <hi>Dublin</hi> for <hi>W. Norman,</hi> and re-printed at <hi>London</hi> for <hi>R. Chiſwel.</hi>
+               </p>
+               <p>Divers Rules for Chriſtian unity opened and urged; in a Ser<g ref="char:EOLhyphen"/>mon preached in the Cathedral Church at <hi>Norwich, Octob.</hi> 16. 1692. by <hi>Eraſmus Warren</hi> Rector of <hi>Worlington</hi> in <hi>Suffolk,</hi> 4<hi>to.</hi> printed for <hi>S. Oliver</hi> in <hi>Norwich,</hi> and <hi>Jo. Robinſon</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>Animadverſions upon Dr. <hi>Sherlock</hi>'s Book, entituled, a Vindica<g ref="char:EOLhyphen"/>tion of the Holy and ever Bleſſed Trinity, <hi>&amp;c.</hi> Together with a more neceſſary Vindication of that Sacred, and Prime Article of the Chriſtian Faith from his new Notions, and falſe Explications of it; by a Divine of the Church of <hi>England.</hi> 4<hi>to.</hi> printed for <hi>Randal Taylor</hi> near Stationers Hall.</p>
+               <p>Sermons preached on ſeveral occaſions, by <hi>John Conant,</hi> D. D. printed for <hi>R. Chiſwel,</hi> and <hi>T. Cockeral.</hi>
+               </p>
+               <p>And Enquiry into the Conſtitution, Diſcipline, Unity, and Wor<g ref="char:EOLhyphen"/>ſhip of the Primitive Church, that flouriſhed within the firſt 300 years after Chriſt: Faithfully Collected out of the extant Writings
+<pb n="7" facs="tcp:102164:5"/>of thoſe Ages. By an Impartial hand, in two parts, 8<hi>vo.</hi> printed for <hi>Jo. Robinſon</hi> at the <hi>Golden Lion,</hi> and <hi>John Wyat</hi> at the <hi>Roſe</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>* The deſign of this Book is in general to repreſent the Conſtitu<g ref="char:EOLhyphen"/>tion, Diſcipline, Unity, and Worſhip of the Primitive Church, that flouriſhed within the firſt 300 years after Chriſt; but more parti<g ref="char:EOLhyphen"/>cularly, and eſpecially to deſcribe their Opinions and Practiſes, with reſpect to thoſe things that are now unhappily controverted, between thoſe of theſe Kingdoms, who are commonly known by the name of Church of <hi>England</hi> Men, <hi>Presbyterians, Indepen<g ref="char:EOLhyphen"/>dents,</hi> and <hi>Anabaptiſts,</hi> &amp;c.</p>
+               <p>Sermons and Diſcourſes upon ſeveral occaſions by <hi>G. Stradling,</hi> D. D. Dean of <hi>Chicheſter,</hi> never before printed, 8<hi>vo.</hi>
+               </p>
+               <p>Twelve Sermons Preached upon ſeveral occaſions, by <hi>Robert South,</hi> D. D. ſix of them never before printed, 8<hi>vo.</hi> Both printed for <hi>Tho. Bennet</hi> at the <hi>Half-moon</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>Myſteries in Religion vindicated: or the Filiation, Deity, and ſa<g ref="char:EOLhyphen"/>tisfaction of our Saviour aſſerted, againſt <hi>Socinians</hi> and others. With occaſional Reflections on ſeveral late Pamphlets, by <hi>Luke Milburne,</hi> a Presbyter of the Church of <hi>England.</hi> 8<hi>vo.</hi> printed for <hi>W. Kettilby</hi> at the <hi>Biſhop's-Head</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Caſe of Sees vacant by an unjuſt, or Uncanonical Depriva<g ref="char:EOLhyphen"/>tion Stated, in Reply to a Treatiſe, entituled, <hi>A Vindication of the deprived Biſhops,</hi> &amp;c. together with the ſeveral other Pamph<g ref="char:EOLhyphen"/>lets lately publiſhed, in Anſwer to the <hi>Baroccian</hi> Treatiſe; by <hi>Humph. Hody,</hi> D. D. Fellow of <hi>Wadham</hi> College in <hi>Oxford,</hi> 4<hi>to.</hi> printed for <hi>Hen. Mortlock,</hi> at the <hi>Phoenix</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Country Curates Advice to his Pariſhioners, in four parts. 1. Directs us, how to ſerve God on the Lords day. 2. On the Week-day. 3. How to diſcharge our duty in our ſeveral Relations; as Husband and Wife, Parents and Children, Maſters and Servants. 4. How to prepare for death; by <hi>H. C.</hi> 8<hi>vo.</hi> printed for <hi>J. Robin<g ref="char:EOLhyphen"/>ſon</hi> at the <hi>Golden Lion</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>De naturali Religione Liber in tres partes diviſus, ubi falſa candide refelluntur, vera probantur vel deteguntur, ac Orthodo<g ref="char:EOLhyphen"/>xarum Eccleſiarum fratres ad concordiam vocantur; Authore</hi> Petro Chauvin: printed for <hi>S. Oliver</hi> in <hi>Norwich,</hi> and to be ſold by <hi>J. Robinſon, A. Swall,</hi> and <hi>T. Childe</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>Criſpiniſm</hi> unmask'd, or a diſcovery of the ſeveral erroneous aſſer<g ref="char:EOLhyphen"/>tions and pernicious Doctrines maintain'd in Dr. <hi>Criſp</hi>'s Sermons, oc<g ref="char:EOLhyphen"/>caſioned by the reprinting of thoſe diſcourſes; printed for <hi>R. Bald<g ref="char:EOLhyphen"/>win</hi> in <hi>Warwick-lane.</hi>
+               </p>
+               <p>Chriſt alone exalted in Dr. <hi>Criſp</hi>'s Sermons, partly confirmed in anſwering Mr. <hi>Daniel William</hi>'s Preface to his Goſpel-Truth ſtated, by alledging Teſtimonies from Scripture, and the Doctrine of the Church of <hi>England,</hi> in the Books of Homilies and other Orthodox
+<pb n="8" facs="tcp:102164:6"/>Authorities; ſhewing how he hath wronged as well the Truth, as the ſaid Doctor in the great point of Juſtification by the <hi>Neonomion</hi> Doctrine; humbly offered by <hi>S. C.</hi> an unworthy Son of the ſaid Doctor, Author of a Book, entituled, <hi>Chriſt made Sin,</hi> reflected on by Mr. <hi>Williams,</hi> 4<hi>to.</hi> price 6 <hi>d.</hi>
+               </p>
+               <p>A plain and impartial Enquiry into Goſpel-Truth, as ſtated and vindicated by Mr. <hi>Daniel Williams;</hi> eſpecially in reference to the Doctrine of Juſtification, and the nature of his proceedings, with his Teſtimonies thereupon; by <hi>Thomas Edwards,</hi> Eſquire, 4<hi>to.</hi> price 1 <hi>s.</hi>
+               </p>
+               <p>The true ſtate of Goſpel-Truth eſtabliſhed upon the free election of God in Chriſt; the agreement and yet difference between Law and Goſpel; ſo that the Goſpel cannot be ſtiled Law; the incon<g ref="char:EOLhyphen"/>ditionateneſs of the Goſpel-ſalvation, the procedure of the day of Judgment; in the way of a conciliatory diſcourſe upon Mr. <hi>Wil<g ref="char:EOLhyphen"/>liams</hi> his conceſſions; by <hi>T. Beverly,</hi> 4<hi>to.</hi> price 6 <hi>d.</hi> theſe three printed for <hi>W. Marſhal</hi> at the <hi>Bible</hi> in <hi>Newgate-ſtreet.</hi>
+               </p>
+               <p>The Axe laid to the Root, containing an expoſition of the Me<g ref="char:EOLhyphen"/>taphorical Text of Holy Scripture, <hi>Matth.</hi> 3.10. proving that God made a two fold Covenant with <hi>Abraham,</hi> and that Circumciſion did not appertain to the Covenant of Grace, but to the external and legal Covenant made with <hi>Abraham,</hi> and his natural ſeed, as ſuch, wherein Mr. <hi>Flavel</hi>'s laſt grand Arguments in his <hi>Vindiciarum Vin<g ref="char:EOLhyphen"/>dex,</hi> and Mr. <hi>Rothwel</hi>'s <hi>Paedobaptiſmus Vindicatus,</hi> are anſwered; to which are added ſome ſhort reflections by way of confutation of Mr. <hi>Joſhua Exel</hi>'s ſerious enquiry into, and certain producing of plain and expreſs proofs, that <hi>John Baptiſt</hi> did as certainly bap<g ref="char:EOLhyphen"/>tize Infants as the Adult; in two parts, by <hi>B. Keath,</hi> price 1 <hi>s.</hi>
+               </p>
+               <p>Mathematical Divinity: Or, a plain demonſtration from the Ho<g ref="char:EOLhyphen"/>ly Scriptures, that the times of this world were fore-appointed by the Covenant made with <hi>Abraham,</hi> and determined to be accor<g ref="char:EOLhyphen"/>ding to the meaſure of the Age and fulneſs of Chriſt; kept ſecret ſince the World began, but is now made plain upon twelve Tables, in a ſolar Calendar as familiar as a common Almanack: With a full proof, that this is the laſt Generation, which ſhall not paſs away till all things be fulfilled, and the Gates of Righteouſneſs be open<g ref="char:EOLhyphen"/>ed, being the reſult of many years ſtudy; by <hi>Elias Palmer:</hi> price 1 <hi>s.</hi> both printed for <hi>J. Harris</hi> at the <hi>Harrow</hi> in the <hi>Poul<g ref="char:EOLhyphen"/>trey.</hi>
+               </p>
+               <p>A freſh Memorial of the Kingdom of Chriſt, demonſtrating from that ſolemn Oath of Chriſt, <hi>Revel.</hi> 10. by expreſs Letter of Scri<g ref="char:EOLhyphen"/>pture, and moſt Hiſtorical matter of fact, it muſt needs enter its ſucceſſion 1697, and begin ſo great and happy an <hi>Aera</hi> of Time, that in regard to it, it might well be ſworn, there ſhall be Time (to ſuch as had been) no more, or no further, for ever; by <hi>T. Be<g ref="char:EOLhyphen"/>verly,</hi> 4<hi>to.</hi> price 6 <hi>d.</hi> both printed for <hi>William Marſhal</hi> in <hi>New<g ref="char:EOLhyphen"/>gate-ſtreet,</hi> and <hi>J. Salusbury</hi> in <hi>Cornhil.</hi>
+               </p>
+               <pb n="9" facs="tcp:102164:6"/>
+               <p>A diſcourſe of Earthquakes as they are preternatural and premo<g ref="char:EOLhyphen"/>nitory ſigns to a Nation; with reſpect to what has occurred in the year 1692. and ſome ſpecial reflections thereon, as alſo on that ſecurity and aſſurance of mind, which is attainable in the light and power of Religion under the greateſt ſurpriſals and terrors of fear, with ſome enquiry upon the grounds of our fears and hopes, as to the publick ſtate of the Church in this day; by <hi>R. Flemming</hi> Mi<g ref="char:EOLhyphen"/>niſter of the Goſpel at <hi>Rotterdam.</hi> Printed for <hi>Jo. Robinſon</hi> at the <hi>Golden Lion</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Mourners directory, guiding him to the middle way betwixt the two extremes, defect and exceſs, for the dead, 8<hi>vo.</hi> by <hi>Thomas Doolittle,</hi> M. A.</p>
+               <p>The righteous Man's hopes at death, conſidered, and improved for the Comfort of dying Chriſtians, and ſupport of ſurviving Re<g ref="char:EOLhyphen"/>lations; to which is added death-bed reflections, proper for a righ<g ref="char:EOLhyphen"/>teous Man in his laſt ſickneſs; by <hi>Sam. Doolittle,</hi> 8<hi>vo.</hi>
+               </p>
+               <p>An Expoſition of the Aſſemblies ſhorter Catechiſm, with practi<g ref="char:EOLhyphen"/>cal references from each Queſtion; by <hi>John Flavel</hi> late Miniſter of the Goſpel at <hi>Dartmouth</hi> in <hi>Devon.</hi> 8<hi>vo.</hi>
+               </p>
+               <p>A Preſent for Servants, from their Miniſters, Maſters, or other Friends, eſpecially in Country Pariſhes. 12<hi>o.</hi> Printed for <hi>Nath. Ranew</hi> at the <hi>King</hi>'s <hi>Arms</hi> in St. <hi>Paul</hi>'s <hi>Church-yard,</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>History.</head>
+               <p>
+                  <hi>Scrinia reſerata,</hi> a Memorial offered to the great deſervings of <hi>John Williams, D. D.</hi> who ſometime held the places of Lord-keeper of the great Seal of <hi>England,</hi> Lord Biſhop of <hi>Lincoln,</hi> and Lord Archbiſhop of <hi>York;</hi> containing a ſeries of the moſt re<g ref="char:EOLhyphen"/>markable occurrences and tranſactions of his Life, in relation both to Church and State: Written by <hi>John Hacket</hi> late Lord Biſhop of <hi>Litchfield</hi> and <hi>Coventry, fol.</hi> printed for <hi>S. Lowndes</hi> over againſt <hi>Exeter-Exchange</hi> in the <hi>Strand.</hi>
+               </p>
+               <p>
+                  <hi>Theatrum Scotiae:</hi> Containing the Proſpects of Their Majeſties Caſtles and Palaces; together with thoſe of the moſt conſiderable Towns and Colleges the Ruines of many Ancient Abbeys, Churches, and Convents in the Kingdom of <hi>Scotland;</hi> all very truly Drawn and very finely Engraven on Copper, and printed on Royal Paper: With a ſhort deſcription of each place. By <hi>John Slezer</hi> Captain of the Attillery Company, and Surveyor of Their Majeſties Stores in <hi>Scotland.</hi> Vol. I. <hi>folio.</hi> Price 45 <hi>s.</hi> Sold by <hi>A. Swalle</hi> and T. <hi>Childe</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> at the Weſt-end of St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>C. Julii Caeſaris quae extant, interpretatione &amp; notis illuſtra<g ref="char:EOLhyphen"/>vit</hi> Johannes Goduinus <hi>Profeſſor Regius, in uſum Delphini,</hi> 8<hi>vo. juxta Edition. Pariſienſem,</hi> Printed for <hi>A. Swalle</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <pb n="10" facs="tcp:102164:7"/>
+               <p>The Life of the Emperor <hi>Theodoſius</hi> the Great; written originally in <hi>French,</hi> by the famous <hi>Albot Flechier,</hi> now Biſhop of <hi>Niſmes,</hi> of the <hi>French</hi> Academy, for the uſe of the <hi>Dauphin;</hi> Engliſh<g ref="char:EOLhyphen"/>ed by Mr. <hi>Francis Manning:</hi> printed for <hi>F. Saunders</hi> on the <hi>New Exchange, Tho. Bennet</hi> at the <hi>Half-moon,</hi> and <hi>J. Knapton</hi> at the <hi>Crown</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi> 8<hi>vo.</hi>
+               </p>
+               <p>The Life of <hi>Lewis</hi> of <hi>Bourbon,</hi> late Prince of <hi>Conde,</hi> digeſted into Annals, with many curious remarks on the tranſactions of <hi>Eu<g ref="char:EOLhyphen"/>rope</hi> for this laſt 60 years, done out of <hi>French,</hi> 8<hi>vo.</hi> printed for <hi>Rich. Baldwin.</hi>
+               </p>
+               <p>New Memoirs and Characters of the two great Brothers, the Duke of <hi>Bouillon</hi> and <hi>Mareſeal Turenne;</hi> written in <hi>French</hi> by <hi>James de Langlade</hi> Baron of <hi>Saumieres;</hi> made <hi>Engliſh,</hi> 8<hi>vo.</hi> printed for <hi>Tho. Bennet</hi> at the <hi>Half-moon</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The life of the moſt illuſtrious Monarch <hi>Almanzor,</hi> together with the Hiſtory of the Conqueſt of <hi>Spain</hi> by the <hi>Moors,</hi> and of the ſeveral Revolutions of the mighty Empire of the <hi>Caliphs,</hi> and of the <hi>African</hi> Kingdoms; compoſed in <hi>Arabick</hi> by <hi>Abulacius Tariff, Abentariq,</hi> one of the Generals in the <hi>Spaniſh</hi> expedition, tranſlated into <hi>Spaniſh,</hi> by <hi>Michael de Luna,</hi> Interpreter to <hi>Phi<g ref="char:EOLhyphen"/>lip</hi> II. made Engliſh by an eminent Hand. Printed for <hi>Dan. Browne</hi> at the <hi>Swan</hi> and <hi>Bible</hi> without <hi>Temple-bar,</hi> and <hi>Iſaac Cleve</hi> at the <hi>Star</hi> in <hi>Chancery-lane.</hi>
+               </p>
+               <p>The Hiſtory of the Life of <hi>Katherine de Medicis,</hi> Queen Mo<g ref="char:EOLhyphen"/>ther and Regent of <hi>France,</hi> or the exact Pattern of the <hi>French</hi> King's Policy. 8<hi>vo.</hi> printed for <hi>John Wyat</hi> at the <hi>Roſe</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>A Vindication of the Hiſtoriographer of the Univerſity of <hi>Oxford,</hi> and his Works, from the Reproaches of the Lord Biſhop of <hi>Sarum</hi> caſt on his <hi>Athenae Oxonienſes,</hi> &amp;c. in a Letter to the Lord Biſhop of <hi>Coventry</hi> and <hi>Litchfield,</hi> concerning a Book lately publiſhed, en<g ref="char:EOLhyphen"/>tituled, <hi>A ſpecimen of ſome Errors and Defects in the Hiſtory of the Reformation of the Church of</hi> England, by <hi>Anthony Harmer:</hi> written by <hi>E. D.</hi> to which is added the Hiſtoriographer's Anſwer to certain Animadverſions made in the before-mention'd Hiſtory of the Reformation, to that part of <hi>Hiſtoriae Antiquitatis Oxon.</hi> which treats of the divorce of Qu. <hi>Catherine</hi> from K. <hi>Henry</hi> VIII. printed for <hi>R. Taylor</hi> near <hi>Stationers-Hall.</hi>
+               </p>
+               <p>An Introduction to a Breviary of the Hiſtory of <hi>England,</hi> with the Reign of King <hi>William</hi> I. entituled the Conqueror: Written by Sir <hi>Walter Raleigh</hi> Knight, and dedicated to the then Earl of <hi>Salisbury:</hi> Never printed before. printed for <hi>Sam. Keeble</hi> at the great <hi>Turks-head</hi> in <hi>Fleet-ſtreet,</hi> and <hi>Dan. Browne</hi> at the black <hi>Swan</hi> and <hi>Bible</hi> without <hi>Temple-bar,</hi> 1693.</p>
+               <p>An Hiſtorical Relation of the Kingdom of <hi>Siam,</hi> by Monſieur <hi>de la Loubere</hi> Envoy Extraordinary from the <hi>French</hi> King, to the King of <hi>Siam,</hi> in the years 1687. and 1688. wherein a full and cu<g ref="char:EOLhyphen"/>rious
+<pb n="11" facs="tcp:102164:7"/>account is given of the <hi>Chineſe</hi> way of Arithmetick, and Ma<g ref="char:EOLhyphen"/>thematick Learning, in two Tomes, illuſtrated with Sculptures: Done out of <hi>French,</hi> by <hi>A. P.</hi> Gent. <hi>R. S. S. Folio.</hi> printed for <hi>Tho. Horne</hi> at the <hi>Royal Exchange, Francis Saunders</hi> at the <hi>New Exchange,</hi> and <hi>Tho. Bennet</hi> at the <hi>Half-moon</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>A Collection of curious Travels and Voyages. In two Tomes. The firſt containing Dr. <hi>Leonhart Rauwolff</hi>'s Itinerary into the <hi>Eaſt<g ref="char:EOLhyphen"/>ern</hi> Countries, as <hi>Syria, Palaeſtine,</hi> or the <hi>Holy Land, Armenia, Meſopotamia, Aſſyria, Chaldea,</hi> &amp;c. Tranſlated from the High <hi>Dutch</hi> by <hi>Nicholas Stophorſt.</hi> The ſecond taking in many parts of <hi>Greece, Aſia minor, Egypt, Arabia Felix,</hi> and <hi>Petraea, Aethiopia,</hi> the <hi>Red-Sea, &amp;c.</hi> from the Obſervations of Monſ. <hi>Belon,</hi> Mr. <hi>Ver<g ref="char:EOLhyphen"/>non,</hi> Dr. <hi>Spon,</hi> Dr. <hi>Smith,</hi> Dr. <hi>Huntingdon,</hi> Mr. <hi>Greaves, Alpinus, Veſlingius, Thevenot</hi>'s Collections, and others. To which are ad<g ref="char:EOLhyphen"/>ded, three Catalogues of ſuch <hi>Trees, Shrubs,</hi> and <hi>Herbs</hi> as grow in the <hi>Levant;</hi> by <hi>John Ray,</hi> Fell. of the Royal Society, 8<hi>vo.</hi> Prin<g ref="char:EOLhyphen"/>ted for <hi>S. Smith</hi> and <hi>B. Walford,</hi> at the <hi>Prince</hi>'s <hi>Arms</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>Travels through <hi>Flanders, Holland, Germany, Sweden</hi> and <hi>Den<g ref="char:EOLhyphen"/>mark:</hi> Containing an account of what is moſt remarkable in thoſe Countries; together with neceſſary inſtructions for Travellers; and a liſt of the common Paſſage-boats in <hi>Holland,</hi> with the hours of their going out. The ſecond Edition, wherein is added a Deſcri<g ref="char:EOLhyphen"/>ption of the fortified Towns in <hi>Flanders</hi> and <hi>Holland,</hi> with exact Draughts of <hi>Dunkirk, Maeſtricht, Charleroy,</hi> and <hi>Aeth,</hi> well en<g ref="char:EOLhyphen"/>graved in Copper. Written by an <hi>Engliſh</hi> Gentleman, who reſi<g ref="char:EOLhyphen"/>ded many years in <hi>Holland</hi> in a publick capacity, 8<hi>vo.</hi> printed for <hi>Randal Taylor</hi> near <hi>Stationers-Hall.</hi>
+               </p>
+               <p>Travels into divers Parts of <hi>Europe</hi> and <hi>Aſia,</hi> undertaken by the <hi>French</hi> Kings Order, to diſcover a new way by Land into <hi>China;</hi> containing many curious remarks in natural Philoſophy, Geogra<g ref="char:EOLhyphen"/>phy, Hydrography and Hiſtory; together with a deſcription of great <hi>Tartary,</hi> and of the different People who inhabit there: By Father <hi>Avril</hi> of the Order of the Jeſuits. Done out of <hi>French;</hi> to which is added, a ſupplement extracted from <hi>Hackluit</hi> and <hi>Pur<g ref="char:EOLhyphen"/>chas,</hi> giving an Account of ſeveral Journeys over Land from <hi>Ruſſia, Perſia,</hi> and the <hi>Moguls</hi> Country to <hi>China,</hi> together with the roads and diſtances of the places, 8<hi>vo.</hi> Printed for <hi>T. Goodwin</hi> at the <hi>Maiden-head</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>The ingenious and diverting Letters of the Lady — Travels into <hi>Spain:</hi> Deſcribing the Devotions, Nunneries, Humours, Cu<g ref="char:EOLhyphen"/>ſtoms, Laws, Militia, Trade, Diet, and Recreations of that People. Intermixt with great variety of Modern Adventures, and Surpriſing Accidents: being the trueſt and beſt Remarks Extant on that Court and Country. In Three Parts compleat. 12<hi>o.</hi> Printed for <hi>Samuel Crouch,</hi> at the Corner of the <hi>Pope</hi>'s-<hi>Head-Alley,</hi> next <hi>Cornhil.</hi>
+               </p>
+               <pb n="12" facs="tcp:102164:8"/>
+               <p>The ſecond Volume of Hiſtorical Voyages and Travels over <hi>Eu<g ref="char:EOLhyphen"/>rope;</hi> containing all that is moſt curious in <hi>Spain</hi> and <hi>Portugal;</hi> done out of <hi>French,</hi> price 1 <hi>s.</hi> the firſt Volume contains <hi>France;</hi> printed for <hi>H. Rhodes</hi> at the <hi>Star</hi> near <hi>Fleet-bridge.</hi>
+               </p>
+               <p>An Impartial Hiſtory of the Wars in <hi>Ireland,</hi> with a continua<g ref="char:EOLhyphen"/>tion thereof in two Parts, from the time that Duke <hi>Schomberg</hi> landed in that Kingdom, to the 23 of <hi>March,</hi> 1692. When Their Majeſties Proclamation was publiſhed, declaring the War to be end<g ref="char:EOLhyphen"/>ed. Illuſtrated with Copper Sculptures, deſcribing the moſt im<g ref="char:EOLhyphen"/>portant places of Action. With ſome remarks upon the preſent ſtate of that Kingdom; By G. <hi>Story</hi> Chaplain to the Regiment for<g ref="char:EOLhyphen"/>merly Sir <hi>Tho. Gowers,</hi> now Earl of <hi>Drogheda</hi>'s, an eye-witneſs of the moſt remarkable paſſages. Thoſe who have the firſt part, may have the ſecond part alone. 4<hi>to.</hi> printed for <hi>R. Chiſwel,</hi> at the <hi>Roſe</hi> and <hi>Crown</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Hiſtory of the Houſe of <hi>Orange:</hi> or, a Brief Relation of the Glorious and Magnanimous Atchievements of His Majeſties Re<g ref="char:EOLhyphen"/>nowned Predeceſſors, and likewiſe of his own Heroick Actions, till the late wonderful Revolution. Together with the Hiſtory of <hi>William</hi> and <hi>Mary</hi> King and Queen of <hi>England, Scotland, France</hi> and <hi>Ireland, &amp;c.</hi> Being an Impartial Account of the moſt remar<g ref="char:EOLhyphen"/>kable Paſſages and Tranſactions in theſe Kingdoms from their Maje<g ref="char:EOLhyphen"/>ſties happy Acceſſion to the Throne to this time. By <hi>R. B.</hi> Price one Shilling</p>
+               <p>The Hiſtory of the two late Kings, <hi>Charles</hi> the Second, and <hi>James</hi> the Second; being an impartial account of the moſt remar<g ref="char:EOLhyphen"/>kable Tranſactions, and obſervable paſſages, during their Reigns; and the <hi>Dover</hi> Treaty, with other ſecret <hi>French</hi> and <hi>Popiſh</hi> In<g ref="char:EOLhyphen"/>trigues and Deſigns managed in thoſe Times. Together with a Relation of the happy Revolution, and the Acceſſion of Their pre<g ref="char:EOLhyphen"/>ſent Majeſties King <hi>William</hi> and Queen <hi>Mary</hi> to the Throne, <hi>Feb.</hi> 13. 1689.</p>
+               <p>The Hiſtory of <hi>Oliver Cromwel,</hi> being an impartial Account of all the Battels, Sieges, and other Military Atchievements, wherein he was engaged in <hi>England, Scotland</hi> and <hi>Ireland;</hi> and particularly all the Sea-ſights with the <hi>Dutch</hi> and <hi>French,</hi> with the Siege and taking of <hi>Dunkirk;</hi> and likewiſe of his Civil Adminiſtrations, while he had the Supreme Government of theſe three Kingdoms, till his Death. Relating only matters of Fact, without Reflection or Ob<g ref="char:EOLhyphen"/>ſervation. By <hi>R. B.</hi> Price 1 <hi>s.</hi>
+               </p>
+               <p>Memorable Accidents and unheard of Tranſactions, containing an account of ſeveral ſtrange Events: As the Depoſing of Tyrants, lamentable Shipwracks, diſmal Misfortunes, ſtratagems of War, pe<g ref="char:EOLhyphen"/>rilous Adventures, happy Deliverances, with other remarkable Oc<g ref="char:EOLhyphen"/>currences, and ſelect Hiſtorical paſſages, which have happened in ſeveral Countries in this laſt Age. Printed at <hi>Bruſſels</hi> in 1691. and
+<pb n="13" facs="tcp:102164:8"/>dedicated to His preſent Majeſty <hi>William</hi> King of <hi>England, &amp;c.</hi> Publiſhed in <hi>Engliſh</hi> by <hi>R. B.</hi> Price 1 <hi>s.</hi> All four printed for <hi>Nath. Crouch,</hi> at the <hi>Bell</hi> in the <hi>Poultrey</hi> near <hi>Cheapſide.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Law.</head>
+               <p>
+                  <hi>Inſtructio Clericalis,</hi> directing Clerks, both in the Court of <hi>King's-bench</hi> and <hi>Common-pleas,</hi> in the abbreviation and contra<g ref="char:EOLhyphen"/>ction of words, and thereby the ready reading of preſidents, in fil<g ref="char:EOLhyphen"/>ling up and ſuing out Writs of firſt proceſs, in drawing Declara<g ref="char:EOLhyphen"/>tions, making up Iſſues, ingroſſing Records, entring judgments, and ſuing out Executions; with an Appendix of ſeveral <hi>Engliſh</hi> Preſidents, <hi>&amp;c.</hi> printed for <hi>C. Bever,</hi> at the <hi>Hand</hi> and <hi>Star</hi> within <hi>Temple-bar.</hi>
+               </p>
+               <p>The Tryal of <hi>Charles</hi> Lord <hi>Mobun,</hi> before the Houſe of Peers in Parliament, for the Murder of <hi>William Mountford;</hi> which be<g ref="char:EOLhyphen"/>gan the 31. of <hi>January</hi> 1692. and continued by ſeveral Adjourn<g ref="char:EOLhyphen"/>ments, till the fourth of <hi>February</hi> following; the moſt Honoura<g ref="char:EOLhyphen"/>ble the Lord Marqueſs of <hi>Carmarthen,</hi> Lord Preſident of Their Majeſties Council, being Lord High Steward <hi>pro hac Vice:</hi> Toge<g ref="char:EOLhyphen"/>ther with the Queſtions in points of Law, put by their Lordſhips to the Judges; with the Arguments of my Lord <hi>Mohun</hi>'s Coun<g ref="char:EOLhyphen"/>cil, and the Opinions of the Judges upon the ſaid Queſtions: Pub<g ref="char:EOLhyphen"/>liſhed by Command of the Houſe of Peers; printed for <hi>Edward Jones</hi> in the <hi>Savoy,</hi> and publiſhed by him and <hi>R. Taylor</hi> near <hi>Sta<g ref="char:EOLhyphen"/>tioners-Hall.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Phyſick.</head>
+               <p>
+                  <hi>Promptuarium praxeos medicae, ſeu methodus medendi, prae<g ref="char:EOLhyphen"/>ſcriptis celeberrimorum medicorum Londinenſium concinnata, &amp; in ordinem Alphabeticum digeſta, à</hi> Johanne Pechey, <hi>M. A. Col<g ref="char:EOLhyphen"/>legii Medicorum Londinenſium Collega,</hi> 12<hi>o.</hi> Printed for <hi>H. Bon<g ref="char:EOLhyphen"/>wick</hi> at the <hi>Red Lion</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>Mineralogia:</hi> or, an account of the preparation, manifold ver<g ref="char:EOLhyphen"/>tues and uſes of a mineral Salt, both in Phyſick and Surgery, which is ſo ſafe, pleaſant, and effectual in its operations, that it may be taken by thoſe of all ages and conſtitutions with great benefit, and without danger of the leaſt prejudice. To which is added, a ſhort diſcourſe of the nature and uſes of the ſulphures of minerals and metals, in curing the moſt chronical and pertinacious diſeaſes; by <hi>Chr. Packe, Philo-Chimico-Medicus,</hi> 8<hi>vo.</hi> printed for <hi>D. Newman,</hi> at the <hi>King's-Arms</hi> in the <hi>Poultrey.</hi>
+               </p>
+               <p>
+                  <hi>Seplaſium:</hi> The Complete Engliſh Phyſician: or the Druggiſt's-ſhop opened, explicating all the particulars of which Medicines at this day are compoſed and made. Shewing their various names and natures, their ſeveral preparations, virtues, uſes, and doſes, as they
+<pb n="14" facs="tcp:102164:9"/>are applicable to the whole art of Phyſick, and containing above 600 chymical proceſſes, a work of exceeding uſe to all ſorts of Men, of what quality or profeſſion ſoever. The like not hitherto ex<g ref="char:EOLhyphen"/>tant; in 10 Books, by <hi>William Salmon</hi> Profeſſor of Phyſick, 8<hi>vo.</hi> Printed for <hi>M. Gillyflower,</hi> at the <hi>Black-ſpread-Eagle</hi> in <hi>Weſtmin<g ref="char:EOLhyphen"/>ſter-Hall,</hi> and <hi>G. Sawbridge,</hi> at the three <hi>Flower-de-luces</hi> in <hi>Lit<g ref="char:EOLhyphen"/>tle-Britain.</hi>
+               </p>
+               <p>Johannis Jacobi Waldſchmidt <hi>Medicinae Doctoris praxis Medi<g ref="char:EOLhyphen"/>cinae rationalis ſuccincta, per caſus tradita &amp; in appendice mo<g ref="char:EOLhyphen"/>nitis medico-practicis-neceſſariis illuſtrata per plurimos morbos; quibus acceſſerunt notae ejuſdem ad praxin Chirurgicam Barbette; nec non ad caſus Baldas</hi> Timaei, <hi>omnia ad mentem</hi> Carteſii, <hi>cum praefatione</hi> Johannis Dolaei, 8<hi>vo.</hi> Sold by <hi>R. Chiſwel.</hi>
+               </p>
+               <p>Curioſities in Chymiſtry: Being new experiments and obſerva<g ref="char:EOLhyphen"/>tions concerning the Principles of Natural Bodies. Written by a Perſon of Honour, and Publiſhed by his Operator, <hi>H. G.</hi> Printed by <hi>H. C.</hi> for <hi>Daniel Browne,</hi> at the <hi>black Swan</hi> and <hi>Bible</hi> with<g ref="char:EOLhyphen"/>out <hi>Temple-bar.</hi> 1693.</p>
+               <p>
+                  <hi>Epiſtolae Medicinales Variis occaſionibus conſcriptae. Authore</hi> Ricardo Carr, <hi>M. D. &amp; Coll. Reg. Med.</hi> Lond. <hi>Socio. Impenſis</hi> Dan. Browne <hi>ad inſigne Nigri Cygni &amp; Bibliarum extra Temple-bar.</hi> 1693.</p>
+               <p>
+                  <hi>Quarum Epiſtolarum hic eſt Elenchus.</hi> 1. <hi>De frequenti Pulve<g ref="char:EOLhyphen"/>ris Sternutatorii uſu, quibus noxam afferre, quibus prodeſſe per<g ref="char:EOLhyphen"/>hibetur.</hi>
+               </p>
+               <p n="2">2. <hi>De fumandi conſuetudine, quibus improbanda, quibus &amp; ap<g ref="char:EOLhyphen"/>probanda cenſeatur.</hi>
+               </p>
+               <p n="3">3. <hi>De Liquorum in Coffipoliis noſtris virtutibus &amp; vitiis.</hi>
+               </p>
+               <p n="4">4. <hi>De hauſtibus matutinis generoſioribus valetudini admodum injuriis.</hi>
+               </p>
+               <p n="5">5. <hi>De Aquis Tunbrigienſibus Nephritico conſulendis.</hi>
+               </p>
+               <p n="6">6. <hi>De Thermis Bathonienſibus uxori nondum gravidae conſu<g ref="char:EOLhyphen"/>lendis.</hi>
+               </p>
+               <p n="7">7. <hi>Num Matris vel Nutricis lacte commodius aletur in<g ref="char:EOLhyphen"/>fans.</hi>
+               </p>
+               <p n="8">8. <hi>Num Tabido iter Monſpelienſe ſuaderem; in tabe fonta<g ref="char:EOLhyphen"/>nellarum uſus examinatur.</hi>
+               </p>
+               <p n="9">9. <hi>De Capillitii uſu, num confert ſedandis Capitis dolo<g ref="char:EOLhyphen"/>ribus?</hi>
+               </p>
+               <p n="10">10. <hi>De Haemorrhoidum fluxu, quibus ſalutares audiunt.</hi>
+               </p>
+               <p n="11">11. <hi>De alvo aſtrictâ, quo pacto contrahitur &amp; qualem mede<g ref="char:EOLhyphen"/>lam exigit.</hi>
+               </p>
+               <p n="12">12. <hi>Num graviditas ex inſpectione <g ref="char:V">Ʋ</g>rinae praedici queat.</hi>
+               </p>
+               <p n="13">13. <hi>De Virgints cujuſdam Gallicae triginta &amp; quinque ſepti<g ref="char:EOLhyphen"/>manis ab omni cibo potuque abſtinentiâ.</hi>
+               </p>
+               <p n="14">14. <hi>De Stri marum ratione, quibus ſanandis Contactus Regius celebratur.</hi>
+               </p>
+               <pb n="15" facs="tcp:102164:9"/>
+               <p n="15">15. <hi>Num ſemel per menſem inebriari valetudini conducit?</hi>
+               </p>
+               <p n="16">16. <hi>De Monialibus duabus Romanis ſexum ſuum immutâſſe dictis.</hi>
+               </p>
+               <p n="17">17. <hi>Cui lectum incoenatum petere conducat, cui contrarium ſuaderem.</hi>
+               </p>
+               <p n="18">18. <hi>Quot horis dormire licebit.</hi>
+               </p>
+               <p>The Phyſical Dictionary. Wherein the Terms of Anatomy, the Names and Cauſes of Diſeaſes, Chyrurgical Inſtruments and their Uſe; are accurately deſcribed. Alſo the Names and Virtues of Medicinal Plants, Minerals, Stones, Gums, Salts, Earths, <hi>&amp;c.</hi> And the Method of chooſing the beſt Drugs: The Terms of Chy<g ref="char:EOLhyphen"/>miſtry, and of the Apothecaries Art; and the various Forms of Medicines, and the ways of compounding them. By <hi>Stephen Blan<g ref="char:EOLhyphen"/>card</hi> M. D. Phyſick-profeſſor at <hi>Middleburg</hi> in <hi>Zealand.</hi> The Se<g ref="char:EOLhyphen"/>cond Edition, with the Addition of above a Thouſand Terms of Art, and their Explanation. Printed for <hi>S. Crouch,</hi> at the Corner of <hi>Pope</hi>'s-<hi>Head-Alley</hi> near the <hi>Royal-Exchange</hi> in <hi>Cornhil,</hi> 1693.</p>
+            </div>
+            <div type="part">
+               <head>Mathematicks.</head>
+               <p>
+                  <hi>Synopſis Algebraica: Opus poſthumum</hi> Joannis Alexandri Ber<g ref="char:EOLhyphen"/>natii-Helvetii; <hi>in uſum ſcholae mathematicae apud</hi> Hoſpitium-Chriſti Londinenſe, <hi>à</hi> Carolo <hi>ſecundo fundatae, Editio</hi> 8<hi>va.</hi> ſold by <hi>E. Brewſter</hi> at the <hi>Crane</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>An arithmetical treatiſe of the combinations, elections, permu<g ref="char:EOLhyphen"/>tations, and compoſitions of quantities, illuſtrated by ſeveral ex<g ref="char:EOLhyphen"/>amples, with a new ſpeculation of the differences of the powers of numbers; by <hi>Thomas Strode,</hi> Eſq; of <hi>Maperton</hi> in the County of <hi>Somerſet.</hi> 4<hi>to.</hi> printed for <hi>J. Taylor,</hi> at the <hi>Ship</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The new Method of Fortification, as practiſed by Monſieur <hi>de Vauban,</hi> Engineer General of <hi>France.</hi> With an Explication of all Terms appertaining to that Art. Made Engliſh with Cuts. The Second Edition: In which is added, exact Draughts of <hi>Dunkirk, Maeſtricht, Charleroy, Aeth</hi> and <hi>Mayence.</hi> Printed for <hi>Abel Swalle</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> at the <hi>Weſt-end</hi> of St. <hi>Paul</hi>'s <hi>Church-yard.</hi> 1693.</p>
+               <p>An Abridgment of the Architecture of <hi>Vitruvius:</hi> Containing a Syſtem of the whole Works of that Author: Illuſtrated with di<g ref="char:EOLhyphen"/>vers Copper Plates, curiouſly engraved; with a Table of Explana<g ref="char:EOLhyphen"/>tion, Etymology and Derivation of the Terms uſed in <hi>Archite<g ref="char:EOLhyphen"/>cture.</hi> Firſt done in <hi>French</hi> by Monſieur <hi>Perrault,</hi> of the Aca<g ref="char:EOLhyphen"/>demy of <hi>Paris,</hi> and now Engliſhed with Additions. Printed for <hi>Abel Swalle</hi> and <hi>T. Child,</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Gaugers practice; or the practical way how to gauge, and inch Brewers tunns; and the gauging of casks according to the true rules of Art. With a table of cylinders in ale gallons and cen<g ref="char:EOLhyphen"/>teſimal
+<pb n="16" facs="tcp:102164:10"/>parts, from 8 to 60 Inches in Diameter, and 31 Inches in depth; calculated to every tenth of an Inch in Diameter, and to every tenth of an Inch in depth; by <hi>George Ward</hi> Philomath. printed for <hi>T. Baſſet</hi> at the <hi>George</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>Memoirs for the ingenious; containing ſeveral curious obſerva<g ref="char:EOLhyphen"/>tions in Philoſophy, Mathematicks, Phyſick, Hiſtory, Philology, and other Arts and Sciences; by <hi>J. de la Croſs,</hi> for <hi>May</hi> 1693. to be continued monthly; <hi>Jan. Feb. March, April,</hi> are already done, 4<hi>to.</hi> printed for <hi>H. Rhodes</hi> at the <hi>Star</hi> in <hi>Fleet-ſtreet,</hi> and <hi>J. Harris</hi> at the <hi>Harrow</hi> in the <hi>Poultrey.</hi>
+               </p>
+               <p>Geography Anatomiz'd, or a complete Geographical Grammar; being a ſhort and exact Analyſis of the whole body of modern Geography; after a new, plain, and eaſie Method, whereby any Perſon may in a ſhort time attain to the knowledge of that moſt no<g ref="char:EOLhyphen"/>ble and uſeful Science, <hi>&amp;c.</hi> to which is ſubjoyned the preſent ſtate of the <hi>European</hi> Plantations in the <hi>Eaſt</hi> and <hi>Weſt-Indies,</hi> with a reaſonable propoſal for the propagation of the bleſſed Goſpel in all Pagan Countries, illuſtrated with divers Maps; by <hi>Patrick Gor<g ref="char:EOLhyphen"/>don,</hi> M. A. printed for <hi>T. Cockeril</hi> at the three <hi>Legs</hi> in the <hi>Poultrey,</hi> and <hi>R. Morden</hi> at the <hi>Atlas</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>Arithmetick, a Treatiſe fitted for the uſe and benefit of ſuch Tradeſmen, as are ignorant in the Art; teaching the nature and uſe of fractions, both Vulgar and Decimal, by a new and eaſie Me<g ref="char:EOLhyphen"/>thod, made familiar to an ordinary capacity; alſo the menſuration of ſolids and ſuperficies, <hi>&amp;c.</hi> By <hi>J. Ayres</hi> at the <hi>Hand</hi> and <hi>Pen</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi> Printed for <hi>Sam. Crouch</hi> at the Corner of <hi>Pope</hi>'s-<hi>Head-Alley</hi> next <hi>Cornhil,</hi> and <hi>J. Blare</hi> at the <hi>Looking-glaſs</hi> on <hi>London-bridge,</hi> 1693.</p>
+            </div>
+            <div type="part">
+               <head>Miſcellanies.</head>
+               <p>A Collection of modern Relations of matter of fact concerning Witches and Witchcraft upon the Perſons of People; to which is prefixed a Meditation concerning the mercy of God, in preſerving us from the malice and power of evil Angels; written by the late Lord Chief Juſtice <hi>Hale,</hi> upon occaſion of a Tryal of ſeveral Witches before him; part 1. price 1 <hi>s.</hi> printed for <hi>J. Harris</hi> at the <hi>Harrow</hi> in the <hi>Poultrey.</hi>
+               </p>
+               <p>The Gentleman's Journal; or the monthly Miſcellany, in a Let<g ref="char:EOLhyphen"/>ter to a Gentleman in the Country, conſiſting of News, Hiſtory, Philoſophy, Poetry, Muſick, Tranſlations, <hi>&amp;c.</hi> Vol. 2. <hi>April</hi> 1693. with complete ſetts for 1692. or ſingle ones. Printed for <hi>Richard Parker</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> in the <hi>Piazza</hi> under the <hi>Royal-Exchange.</hi>
+               </p>
+               <p>
+                  <hi>Paul</hi>'s School Round-hand in 2 Parts. One of the ſtrong Ala<g ref="char:EOLhyphen"/>mode Round-hand, the other of the Merchant like mixt running-hand now in uſe; Adorned with great variety of command of hand, by <hi>John Ayres</hi> at the <hi>Hand</hi> and <hi>Pen</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+                  <pb n="17" facs="tcp:102164:10"/>Sold by <hi>Sam. Crouch</hi> at the end of <hi>Pope</hi>'s-<hi>Head-Alley</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>The complete Gardner; or directions for cultivating and right ordering of Fruit-gardens and Kitchin-gardens, with divers refle<g ref="char:EOLhyphen"/>ctions on ſeveral parts of Husbandry, in ſix Books; by the famous <hi>Monſieur de la Quintinye,</hi> chief director of all the Gardens of the <hi>French</hi> King: To which is added, his Treatiſe of Orange trees, with the raiſing of Melons, omitted in the <hi>French</hi> Editions: Made Eng<g ref="char:EOLhyphen"/>liſh by <hi>J. Evelin</hi> Eſq; illuſtrated with copper plates, <hi>fol.</hi> printed for <hi>M. Gillyflower</hi> at the <hi>Spread-eagle</hi> in <hi>Weſtminſter-hall,</hi> and <hi>S. Partridge</hi> at the <hi>Poſt-houſe</hi> at <hi>Charing-croſs.</hi>
+               </p>
+               <p>The Letters of the Reverend Father <hi>Paul,</hi> Counſellor of State to the moſt ſerene Re-publick of <hi>Venice,</hi> and Author of the excellent Hiſtory of the Council of <hi>Trent:</hi> written to <hi>Monſieur del Iſle Groſlot,</hi> a noble Proteſtant of <hi>France,</hi> the learned Monſieur <hi>Gil<g ref="char:EOLhyphen"/>lot,</hi> and others, in a correſpondence of divers years; tranſlated out of <hi>Italian,</hi> by <hi>Edward Brown</hi> Rector of <hi>Sunbridge</hi> in <hi>Kent,</hi> 8<hi>vo.</hi>
+               </p>
+               <p>A Letter by the Lord Biſhop of <hi>Salisbury,</hi> to the Lord Biſhop of <hi>Coventry</hi> and <hi>Litchfield,</hi> concerning a Book lately publiſhed, cal<g ref="char:EOLhyphen"/>led, <hi>A ſpecimen of ſome errors and defects in the Hiſtory of the Reformation of the Church of</hi> England; by <hi>Anthony Harmer,</hi> 4<hi>to.</hi>
+               </p>
+               <p>A Letter to a Friend concerning the behaviour of Chriſtians un<g ref="char:EOLhyphen"/>der the various Revolutions of State-governments, 4<hi>to.</hi> theſe three printed for <hi>R. Chiſwel</hi> at the <hi>Roſe</hi> and <hi>Crown</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Juſtice of Peace his Calling and Qualifications. By <hi>Edmund Bohun</hi> Eſq; 8<hi>vo.</hi> Printed for <hi>T. Salusbury,</hi> at the <hi>King</hi>'s-<hi>Arms</hi> next St. <hi>Dunſtan</hi>'s-<hi>Church</hi> in <hi>Fleet-ſtreet.</hi> 1693.</p>
+               <p>A diſcourſe concerning Generoſity, where is endeavoured, firſt to explain the nature of that principle; ſecondly, to ſhew the uſe<g ref="char:EOLhyphen"/>fulneſs of it, for the due government of our actions; and thirdly, to ſhew how Generoſity may be acquired, or afterwards improved in our minds: printed for <hi>J. Adamſon</hi> at the <hi>Angel</hi> and <hi>Crown</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>Phraſeologia Generalis; Continens, quaecunque ſunt ſcitu ne<g ref="char:EOLhyphen"/>ceſſaria, &amp; Praxi, uſuique ſtudioſcrum Philologicorum, maxime utilia, in cunctis operibus Phraſeologicis, Anglico-Latinis, ſeu Latino-Anglicanis, hucúſque, hîc, in lucem editis; eaque ſuc<g ref="char:EOLhyphen"/>cinctè, &amp; methodicè, diſpoſita; in gratiam ſtudioſae juventutis, &amp; ad faciliorem, ac foeliciorem, in ſtudiis ſuis Philologicis, progreſſum.</hi>
+               </p>
+               <p>A full, large, and general Phraſe Book; comprehending what<g ref="char:EOLhyphen"/>ſoever is neceſſary and moſt uſeful, in all other Phraſeological Books, (hitherto, here, publiſhed;) and methodically digeſted; for the more ſpeedy, and Proſperous Progreſs of Students, in their Humanity Studies. By <hi>William Robertſon,</hi> A. M. Printed by <hi>John Hayes,</hi> Printer to the Univerſity; and are to be ſold by <hi>Abel
+<pb n="18" facs="tcp:102164:11"/>Swall</hi> in St. <hi>Paul</hi>'s <hi>Church-yard, Daniel Browne</hi> without <hi>Temple-bar, John Lawrence</hi> in the <hi>Poultrey, Henry Bonwick</hi> and <hi>John Taylor</hi> in St. <hi>Paul</hi>'s <hi>Church-yard, London,</hi> 1693.</p>
+               <p>* This Book contains all that is valuable in <hi>Cooper</hi>'s Dictionary, <hi>Walker</hi>'s Idioms, and <hi>Walker</hi>'s Phraſes, and is the moſt complete of any that have been publiſhed of this nature, formerly ſold for 10 <hi>s.</hi> and now for 5 <hi>s.</hi>
+               </p>
+               <p>† <hi>Juſti Lipſii Roma Illuſtrata, ſive Antiquitatum Romanarum Breviarium: Et</hi> Georgii Fabricii <hi>Chemnicenſis veteris Romae cum Nova Collatio. Ex nova Recenſione</hi> Antonii Thyſii, J. C. <hi>Cui ac<g ref="char:EOLhyphen"/>ceſſerunt in hâc Editione Juſti Lipſii Tractatus Peculiares,</hi> viz. <hi>De Veterum Latinorum Scriptura. De Re Pecuniaria. De No<g ref="char:EOLhyphen"/>minibus Romanorum. De Ritu Conviviorum. De Cenſura &amp; Cenſu. De Anno, deque ejus diverſitate: item ratione interca<g ref="char:EOLhyphen"/>landi. Cum Figuris Aeneis in uſum Stuàioſae Juventutis, Opus tam ad Hiſtorias, quàm Poetas, caeteroſque Authores Romanos explicandos, utiliſſimum. Impenſis</hi> Abelis Swalle, <hi>&amp;</hi> Tim. Childe, <hi>ad Inſigne Monocerotis in Coemeterio D.</hi> Pauli. MDCXCIII.</p>
+               <p>* This Book has had a very general approbation, as appears by the many Impreſſions there has been of it beyond Sea. This Edi<g ref="char:EOLhyphen"/>tion is very conſiderably improved by the addition of the ſix Trea<g ref="char:EOLhyphen"/>tiſes of <hi>Lipſius,</hi> concerning the manner of writing of the ancient <hi>Remans,</hi> their Money, Names, <hi>&amp;c.</hi> Which contain many things wanting in <hi>Roſinus,</hi> and other more voluminous Authors, and is in general a very good Account of the Government, Laws, Re<g ref="char:EOLhyphen"/>ligion, Armies, Buildings, Wealth, <hi>&amp;c.</hi> of the old <hi>Romans,</hi> in their moſt flouriſhing condition.</p>
+               <p>† МΥΘΟΛΟΓΙ'А <hi>ſive quarundam fabularum explicatio, Lin<g ref="char:EOLhyphen"/>guae Graecae Tyronibus accommodata; una cum locis Poetarum fa<g ref="char:EOLhyphen"/>bularumque citatis in uſum ſcholae mercatorum ſciſſorum Londi<g ref="char:EOLhyphen"/>nenſis:</hi> Printed for <hi>C. Coningsby</hi> at the gilded <hi>Turks-head</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>† Baſilii Fabri Sarani, <hi>Theſaurus eruditionis ſcholaſticae; ſive ſu<g ref="char:EOLhyphen"/>pellex inſtructiſſima vocum, verborum, ac locutionum; tum re<g ref="char:EOLhyphen"/>rum, ſententiarum, adagiorum ac exemplorum: quae docenti<g ref="char:EOLhyphen"/>bus juxta at que diſcentibus ad intelligendos ſolutae ac ligatae ora<g ref="char:EOLhyphen"/>tionis Auctores, ſolidamque eruditionem comparandam, magno adjumento eſſe poſſunt. Per</hi> Auguſtum Bucknerum <hi>recenſitus &amp; emendatus: cum indice latino rituum &amp; antiquitatum, per</hi> Chri<g ref="char:EOLhyphen"/>ſtopherum Cellarium, <hi>fol. Proſtat apud</hi> Richardum Chiſwel <hi>ad in<g ref="char:EOLhyphen"/>ſigne Roſae Coronatae in</hi> Coemeterio Divi Pauli.</p>
+               <p>
+                  <hi>Obſervationes &amp; conjecturae in Numiſmata quaedam antiqua</hi> ΠΑΡΕΡΓΟΝ Laurentii Begeri <hi>conciliarii electoralis Brandenbur<g ref="char:EOLhyphen"/>gici, ab Antiquitatibus &amp; Bibliotheca; accedunt duae Ill. Ez. Spanhemii ad Authorem Epiſtolae, iiſque interjectae Authoris ad priorem reſponforia,</hi> 4 <hi>to.</hi>
+               </p>
+               <pb n="19" facs="tcp:102164:11"/>
+               <p>
+                  <hi>Homines ſub aquis viventes, ductu hiſtoriae &amp; phyſicae, qua ve<g ref="char:EOLhyphen"/>ritatem, qua genuinam vitae rationem, immixtis nonnullis, cir<g ref="char:EOLhyphen"/>ca alimentum, reſpirationem ſpiritus, ſanguinem, temperamen<g ref="char:EOLhyphen"/>tum, ſenſus, aquas item, obſervationibus illuſtrati, &amp; luci pub<g ref="char:EOLhyphen"/>licae expoſiti à</hi> Salomone Sprangero Voigtlando, 12<hi>o.</hi> Both ſold by <hi>R. Chiſwel.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Heraldry.</head>
+               <p>The academy of armory, or a ſtore-houſe of armory and blazon, containing the ſeveral variety of created Beings, and how born in coats of Arms, both foreign and domeſtick; with the inſtruments uſed in all trades and ſciences, together with their terms of Art; al<g ref="char:EOLhyphen"/>ſo the etymologies, definitions and hiſtorical obſervations on the ſame, explicated and explained according to our modern language; very uſeful for all Gentlemen, Scholars, Divines, and all ſuch as de<g ref="char:EOLhyphen"/>ſire any knowledge in Art and Sciences, by <hi>Randal Holme</hi> of the City of <hi>Cheſter</hi> Gentleman-ſewer in extraordinary to his late Ma<g ref="char:EOLhyphen"/>jeſty K. <hi>Charles</hi> II. and ſometimes Deputy to the Kings of Arms, <hi>Fol.</hi> printed for the Author, and to be ſold by <hi>R. Chiſwel</hi> at the <hi>Roſe</hi> and <hi>Crown</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>† <hi>Regum pariumque magnae Britanniae Hiſtoria Genealogica, qua veterum juxta ac recentium in illa familiarum origines, ſtem<g ref="char:EOLhyphen"/>mata &amp; res memorabiliores ordine ad noviſſimum</hi> Angliae <hi>ſtatum aptato, recenſentur atque explicantur, additis Aenets inſignium tabulis &amp; indice neceſſario; ſtudio ac opera</hi> Jacobi Willielmi Im. Hoff. <hi>fol.</hi>
+               </p>
+               <p>
+                  <hi>Excellentium familiarum in Gallia Genealogiae à prima ea<g ref="char:EOLhyphen"/>rundem origine uſque ad praeſens Aevum deductae, &amp; notis hiſto<g ref="char:EOLhyphen"/>ricis, quibus memorabilia regni Galliae, Regumque &amp; Clarorum to<g ref="char:EOLhyphen"/>ga &amp; ſago virorum facta, moreſque ac dignitates recenſuntur, il<g ref="char:EOLhyphen"/>luſtratae, cum Iconibus inſignium &amp; indicibus neceſſariis; Aucto<g ref="char:EOLhyphen"/>re</hi> Jacobo Willielmo Im. Hoff. <hi>fol.</hi> Both ſold by <hi>R. Chiſwel</hi> at the <hi>Roſe</hi> and <hi>Crown</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Poetry and Plays.</head>
+               <p>The Wary Widow, or Sir <hi>Noiſy Parrot,</hi> a Comedy, Written by Mr. <hi>Henry Higden,</hi> 4<hi>to.</hi> Printed for <hi>Abel Roper</hi> at the <hi>Mitre</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>The <hi>Richmond</hi> Heireſs, or a Woman once in the right; a Come<g ref="char:EOLhyphen"/>dy, written by Mr. <hi>Durfey.</hi>
+               </p>
+               <p>A very good Wife; a Comedy as it is acted at the Theatre Royal. Both printed for <hi>Sam. Briſcoe</hi> over againſt <hi>Will</hi>'s Coffee-houſe in <hi>Covent-Garden.</hi>
+               </p>
+               <p>A Duke and no Duke: As it is acted by Their Majeſties Servants. To which is added a Preface concerning Farce: With an account of the <hi>Perſonae</hi> and <hi>Larvae, &amp;c.</hi> of the ancient Theatre, by <hi>N. Tate</hi>
+                  <pb n="20" facs="tcp:102164:12"/>Servant to Their Majeſties, 4<hi>to.</hi> printed for <hi>H. Bonwick,</hi> at the <hi>Red Lion</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Bacchanalian Seſſions; or, the contention of liquors; with a farewel to Wine, by the Author of the ſearch after Claret, <hi>&amp;c.</hi> To which is added, a Satyrical Poem on one who had injur'd his me<g ref="char:EOLhyphen"/>mory, by a friend. 4<hi>to.</hi> printed for <hi>E. Hawkins.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Reprinted.</head>
+               <p>The Works of the learned <hi>Iſaac Barrow,</hi> D.D. late Maſter of <hi>Trinity College,</hi> in <hi>Cambridge:</hi> Publiſhed by his Grace <hi>John</hi> Lord Archbiſhop of <hi>Canterbury: The third Volume containing</hi> 45 <hi>Ser<g ref="char:EOLhyphen"/>mons on ſeveral occaſions;</hi> completing his Engliſh works. <hi>Folio.</hi> printed for <hi>B. Aylmer,</hi> at the <hi>Three Pigeons</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>State Tracts in two parts; the firſt part being a collection of ſe<g ref="char:EOLhyphen"/>veral treatiſes relating to the Government, privately printed in the Reign of King <hi>Charles</hi> the Second. The ſecond part conſiſting of a farther collection of ſeveral choice Treatiſes relating to the Go<g ref="char:EOLhyphen"/>vernment; from the year 1660, to 1689. Now publiſhed in a body, to ſhew the neceſſity, and clear the legality of the late Re<g ref="char:EOLhyphen"/>volution, and our preſent happy ſettlement under the Auſpicious Reign of Their Majeſties King <hi>William</hi> and Queen <hi>Mary. fol.</hi> Sold by <hi>R Baldwin,</hi> near the <hi>Oxford-Arms</hi> in <hi>Warwick-lane.</hi>
+               </p>
+               <p>The Works of <hi>Joſephus,</hi> with great diligence reviſed and amen<g ref="char:EOLhyphen"/>ded, according to the excellent <hi>French</hi> tranſlation of <hi>Monſieur Ar<g ref="char:EOLhyphen"/>nauld D' Andilly.</hi> Alſo the Embaſſy of <hi>Philo-Judaeus</hi> to the Em<g ref="char:EOLhyphen"/>peror <hi>Caius Caligula,</hi> never tranſlated before; with the references of the Scripture, a new map of the Holy Land, and divers copper Plates ſerving to illuſtrate the Hiſtory. <hi>folio.</hi> printed for <hi>T. Baſſet, N. Ranew, R Chiſwel, J. Wright, J. Robinſon, M. Wotton, G. Convers,</hi> and <hi>G. Sawbridge.</hi>
+               </p>
+               <p>The Inſtitution, Laws and Ceremonies of the moſt noble order of the Garter; and a brief account of all other military orders of Knighthood in <hi>England, Scotland, France, Spain, Germany, Italy, Sweedland, Denmark,</hi> &amp;c. With the enſigns of the ſeveral orders, by <hi>Elias Aſhmole</hi> late of the middle <hi>Temple</hi>Eſq; <hi>Windſor</hi> Herald at Arms. The whole Work adorn'd with ſculptures, and furniſhed with variety of matter, relating to honour and nobleneſs. The ca<g ref="char:EOLhyphen"/>talogue of the Knights, Companions and Officers continued to 1693, <hi>folio.</hi> Sold by <hi>T. Dring,</hi> at the <hi>Harrow</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>A Complete Journal of the Votes, Speeches and Debates, both of the Houſe of Lords, and Houſe of Commons throughout the whoſe Reign of Queen <hi>Elizabeth:</hi> Collected by that eminent Member of Parliament Sir <hi>Simonds d' Ewes</hi> Baronet. Publiſhed by <hi>Paul Bowes</hi> of the middle <hi>Temple</hi> Eſq; <hi>fol.</hi> printed for <hi>Jonathan Robinſon</hi> in <hi>St Paul</hi>'s <hi>Church-yard, Jacob Tonſon</hi> in <hi>Chancery-lane, A.</hi> and <hi>J.
+<pb n="21" facs="tcp:102164:12"/>Churchil</hi> in <hi>Pater-noſter-row,</hi> and <hi>John Wyat</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The happy Aſcetick; or, the beſt exerciſe: to which is added, a Letter to a Perſon of quality concerning the holy lives of the pri<g ref="char:EOLhyphen"/>mitive Chriſtians; by <hi>Anthony Horneck,</hi> D. D. Chaplain in ordinary to Their Majeſties, and Preacher at the <hi>Savoy:</hi> the third Edition corrected and enlarged, with Prayers at the end of each exer<g ref="char:EOLhyphen"/>ciſe, 8<hi>vo.</hi>
+               </p>
+               <p>The New-years-gift complete, in ſix parts; compoſed of Prayers and Meditations for every day in the week, with devotions for the Sacrament, Lent, and other occaſions. 24<hi>o.</hi> both printed for <hi>Henry Mortlock,</hi> at the <hi>Phoenix</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>Officium Euchariſticum:</hi> a Preparatory ſervice to a devout and worthy reception of the Lord's Supper; to which is added a medi<g ref="char:EOLhyphen"/>tation for every day in the week. 12<hi>o.</hi> printed for <hi>C. Wilkinſon,</hi> and ſold by <hi>R. Clavel,</hi> at the <hi>Peacock</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>Reformed devotions, in meditations, hymns and petitions for e<g ref="char:EOLhyphen"/>very day in the week, and every Holiday in the year; divided into two parts, the third edition review'd. 12<hi>o.</hi> printed for <hi>R. Cumber<g ref="char:EOLhyphen"/>land,</hi> at the <hi>Angel</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>The Chriſtian Monitor, containing an earneſt exhortation to an holy Life, with ſome directions in order thereto; written in a plain and eaſie ſtyle for all ſorts of People. The 15th edition 8<hi>vo.</hi> price 3 <hi>d.</hi> but thoſe that are diſpoſed for Charity may have a 100 for 20 <hi>s.</hi>
+               </p>
+               <p>A Sermon concerning the Excellency and uſefulneſs of the Com<g ref="char:EOLhyphen"/>mon-Prayer: preached by <hi>William Beveridge</hi> D. D. Rector of St. <hi>Peter</hi>'s <hi>Cornhil, London;</hi> at the opening of the ſaid Pariſh Church; 27. <hi>Nov.</hi> 1681. <hi>The ninth Edition, now being done into Welſh, for the benefit of thoſe not underſtanding the Engliſh Tongue.</hi> 12<hi>o.</hi> Both printed for <hi>S. Manſhip,</hi> at the <hi>Black Bull</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>A mirror for Atheiſts, being ſome paſſages of the life and death, of the right Honourable <hi>John</hi> Earl of <hi>Rocheſter;</hi> who dyed the 26. of <hi>July</hi> 1680. written by his own directions on his Death-bed, by <hi>Gilbert Burnet</hi> D. D. now Lord Biſhop of <hi>Sarum.</hi> 8<hi>vo.</hi> price 2 <hi>s.</hi> printed for <hi>J. Salusbury</hi> at the <hi>Sun</hi> in <hi>Cornhil.</hi>
+               </p>
+               <p>Serious reflections on Time and Eternity, with ſome other ſub<g ref="char:EOLhyphen"/>jects Moral and Divine, to which is annexed an appendix concerning the firſt day of the year how obſerved by the <hi>Jews,</hi> and may beſt be employed by a ſerious <hi>Chriſtian,</hi> by <hi>John Shower; the third Edition corrected and much enlarged.</hi> 120. printed for <hi>S. Clement,</hi> at the <hi>Swan</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>Human Prudence, or the Art by which a Man may raiſe himſelf and fortune to grandeur; <hi>the ſixth Edition, corrected and en<g ref="char:EOLhyphen"/>larged by the Author,</hi> 130. printed for <hi>R. Sare</hi> at <hi>Grays-Inn-Gate, Holbourn.</hi>
+               </p>
+               <pb n="22" facs="tcp:102164:13"/>
+               <p>Geography rectified, or a deſcription of the World in all its King<g ref="char:EOLhyphen"/>doms, Provinces, Countries, Iſlands, Cities, Towns, Rivers, Bays, Capes, Names, Inhabitants, Situations, Hiſtories, Cuſtoms, Com<g ref="char:EOLhyphen"/>modities, Government; illuſtrated with about 80 Maps: By <hi>Rob. Morden; the third Edition with Additions:</hi> To which is added a Geographical Table Mathematically digeſted, 4<hi>to.</hi> Printed for <hi>R. Morden</hi> at the <hi>Atlas</hi> in <hi>Cornhil,</hi> and <hi>T. Cockeril</hi> at the <hi>three Legs</hi> in the <hi>Poultrey.</hi>
+               </p>
+               <p>The firſt book of architecture by <hi>Andrea Palladio</hi> tranſlated out of <hi>Italian,</hi> with an appendix touching doors and windows; by <hi>P. le Muet</hi> architect to the <hi>French</hi> King. Tranſlated out of <hi>French</hi> by <hi>G. R.</hi> Alſo rules and demonſtrations with ſeveral deſigns for the framing of any manner of Roofs, either above pitch, or under pitch, whether ſquare, or level, never publiſhed before: with de<g ref="char:EOLhyphen"/>ſigns of floors of variety of ſmall pieces of wood, lately made in the Palace of the Queen Mother at <hi>Somerſet-houſe,</hi> a curioſity ne<g ref="char:EOLhyphen"/>ver practiſed in <hi>England</hi> before: <hi>The fifth Edition corrected and enlarged, with the new model of the Cathedral of St.</hi> Paul. 4<hi>to.</hi> printed for <hi>G. Sawbridge</hi> in <hi>Little-Britain.</hi>
+               </p>
+               <p>The ſecond Part of the Relation of the late wicked Contrivance againſt the Lives of feveral Perſons, by Forging an Aſſociation un<g ref="char:EOLhyphen"/>der their hands: Being a farther Account of the ſaid Forgery, and of the two Authors of it, <hi>Stephen Blackhead</hi> and <hi>Robert Young,</hi> alias <hi>Youngs,</hi> alias <hi>Brown,</hi> alias <hi>Hopkins,</hi> alias <hi>Hutt,</hi> alias <hi>Green,</hi> alias <hi>Jones,</hi> alias <hi>Smith,</hi> alias, <hi>&amp;c.</hi> Written by the Biſhop of <hi>Ro<g ref="char:EOLhyphen"/>cheſter; the ſecond Edition:</hi> Printed for <hi>Edward Jones</hi> in the <hi>Savoy.</hi>
+               </p>
+               <p>Engliſh Examples; to be turned into Latin, beginning with the Nominative Caſe and Verb, as it is varied through all moods and tenſes; and after fitted to all the rules of the Grammar, to which are added, ſome cautions for Children to avoid miſtakes in making Latin, Forms of Epiſtles, Themes, and other Exerciſes for the uſe of young Beginners at <hi>Bury-ſchool.</hi> To which now is added, an In<g ref="char:EOLhyphen"/>dex of all Engliſh words that are in this Book with the Latin words proper in them: <hi>The tenth Edition,</hi> 12<hi>o.</hi> Printed for <hi>Richard Chiſ<g ref="char:EOLhyphen"/>wel</hi> and <hi>B. Griffin.</hi>
+               </p>
+               <p>An enquiry into the meaſures of ſubmiſſion to the ſupreme Au<g ref="char:EOLhyphen"/>thority, and of the grounds upon which it may be lawful or neceſ<g ref="char:EOLhyphen"/>ſary for ſubjects to defend their religion, lives and liberties: writ at the time of His Majeſties coming to <hi>England,</hi> in the year 1688, and now reprinted with a Preface [upon occaſion, of the late Vote of the Houſe of Commons] by the right reverend Father in God, <hi>Gilbert</hi> Lord Biſhop of <hi>Sarum.</hi> 4<hi>to.</hi> printed for <hi>R. Chiſwel,</hi> at the <hi>Roſe</hi> and <hi>Crown</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>There is newly reprinted <hi>Rich</hi>'s Teſtament and Pſalms; to be ſold either bound together, or ſingle: wrought off upon fine pa<g ref="char:EOLhyphen"/>per
+<pb n="23" facs="tcp:102164:13"/>printed for <hi>R. Clavel,</hi> at the <hi>Peacock</hi> in St. <hi>Paul's Church-yard.</hi>
+               </p>
+               <p>A new art of ſhort and ſwift writing without characters, invented ſome years ſince by Mr. <hi>Batcliffe</hi> of <hi>Plymouth;</hi> but not publiſhed in his life time. By which rules a common hand will make ſuch expedition, that Sermons, Speeches, or Tryals may be taken with delight, and plainly read though 20 years after: <hi>The ſecond Edi<g ref="char:EOLhyphen"/>tion with large additions throughout the whole work</hi> 8<hi>vo.</hi> price 4 <hi>d.</hi> Printed for <hi>T. Howkins</hi> in <hi>George-yard</hi> in <hi>Lombard-ſtreet.</hi>
+               </p>
+               <p>A ſhort Introduction into Orthography, or the Method of True Spelling; publiſhed for the Common Good, but eſpecially for the Uſe of a Private Grammar and Writing-ſchool in <hi>White-croſs-ſtreet;</hi> by <hi>Richard</hi> — School-maſter: Printed for T. <hi>Cockeril</hi> at the <hi>three Legs</hi> in the <hi>Poultrey.</hi>
+               </p>
+               <p>The Counter-ſcuffle; whereunto is added the counter rat; writ<g ref="char:EOLhyphen"/>ten by <hi>R. S.</hi> 4<hi>to.</hi> printed for <hi>T. Baſſet, R. Chiſwel, M. Wotton, G. Conyers,</hi> and <hi>B. Walford.</hi>
+               </p>
+               <p>The Gazetteer's: or <hi>Newſman</hi>'s Interpreter: Being a Geogra<g ref="char:EOLhyphen"/>phical Index of all the conſiderable Cities, Patriarchſhips, Biſhop<g ref="char:EOLhyphen"/>ricks, Univerſities, Dukedoms, Earldoms, and ſuch like; Imperial and Hance Towns, Ports, Forts, Caſtles, <hi>&amp;c.</hi> in <hi>Europe.</hi> Shewing in what Kingdoms, Provinces, and Counties they are; to what Prince they are now ſubject; upon, or nigh what Rivers, Bays, Seas, Mountains, <hi>&amp;c.</hi> they ſtand; their Diſtances (in Engliſh Miles) from ſeveral other Places of Note; with their Longitude and Lati<g ref="char:EOLhyphen"/>tude, according to the beſt and moſt approved Maps. Of ſpecial Uſe for the true Underſtanding of all Modern Hiſtories of <hi>Europe,</hi> as well as the Preſent Affairs; and for the conveniency of Cheapneſs and Pocket-Carriage, explained by Abbreviations and Figures. <hi>The ſe<g ref="char:EOLhyphen"/>cond Edition, Corrected, much Enlarged and Improved beyond the Firſt Edition.</hi> By <hi>Lawrence Eachard,</hi> A. B. of <hi>Chriſt's-Col<g ref="char:EOLhyphen"/>lege</hi> in <hi>Cambridge.</hi> Printed for <hi>Tho. Salusbury</hi> at the <hi>King</hi>'s <hi>Arms</hi> next St. <hi>Dunſtan</hi>'s Church in <hi>Fleet-ſtreet,</hi> 1693.</p>
+               <p>* This Book is very remarkable for the exactneſs of its Method; and the careful meaſuring the diſtance of Places according to the beſt Maps.</p>
+               <p>A moſt complete Compendium of Geography, General and Spe<g ref="char:EOLhyphen"/>cial; deſcribing all the Empires, Kingdoms, and Dominions in the whole World. Shewing their Bounds, Situation, Dimenſions, An<g ref="char:EOLhyphen"/>cient and Modern Names, Hiſtory, Government, Religions, Lan<g ref="char:EOLhyphen"/>guages, Commodities, Diviſions, Subdiviſions, Cities, Rivers, Moun<g ref="char:EOLhyphen"/>tains, Lakes, with their Archbiſhopricks, Biſhopricks, and Univer<g ref="char:EOLhyphen"/>ſities. In a more Plain and Eaſie Method, more compendious and uſeful than any of the leſſer ſort. Together with an Appendix of General Rules for making a large Geography, with the great Uſes of that Science: Very neceſſary for the right underſtanding of the Tranſactions of theſe Times: Collected according to the lateſt Diſ<g ref="char:EOLhyphen"/>coveries,
+<pb n="24" facs="tcp:102164:14"/>and agreeing with the Choiceſt and Neweſt Maps. <hi>The Third Edition, Corrected and much Improv'd, beyond the Two firſt Impreſſions.</hi> By <hi>Lawrence Eachard,</hi> A. B. of <hi>Chriſt's-College</hi> in <hi>Cambridge. London,</hi> Printed for T. <hi>Salusbury</hi> at the <hi>King</hi>'s <hi>Arms</hi> next St. <hi>Dunſtan</hi>'s-<hi>Church</hi> in <hi>Fleetſtreet,</hi> 1693.</p>
+            </div>
+            <div type="part">
+               <head>Books now Printing and Re-printing.</head>
+               <p>
+                  <hi>CAmden</hi>'s <hi>Britannia,</hi> new tranſlated into Engliſh with large and very conſiderable Additions; <hi>viz.</hi> Mr. <hi>Selden</hi>'s, and other eminent Perſons Notes and Corrections: An Account of the Diſco<g ref="char:EOLhyphen"/>veries that have been made ſince Mr. <hi>Camden</hi>'s Death, drawn from the printed Hiſtories of particular Counties, and the Manuſcript Col<g ref="char:EOLhyphen"/>lections of divers curious Perſons: An Account of the Seats of the Nobility, of the Univerſities, Colleges, Schools, Coins and Build<g ref="char:EOLhyphen"/>ings of <hi>England:</hi> The large Diſcourſe of Mr. <hi>Camden</hi> concerning the Government of the <hi>Romans</hi> and <hi>Saxons</hi> in <hi>England,</hi> the Degrees in <hi>England,</hi> and the Courts of <hi>Britain,</hi> much corrected and impro<g ref="char:EOLhyphen"/>ved, and ſome Original Diſcourſes on that Subject added by an emi<g ref="char:EOLhyphen"/>nent Hand. An Account of thoſe Authors that have illuſtrated <hi>Eng<g ref="char:EOLhyphen"/>land</hi> in general, or any one Country in particular, will be alſo added; as likewiſe large Indexs and Gloſſaries, <hi>&amp;c.</hi> With large Sheet-Maps of every County, containing all the Towns and Villages, with the Roads, and Degrees of Longitude and Latitude, new engraved by the beſt Workmen according to the laſt and beſt Surveys, cor<g ref="char:EOLhyphen"/>rected by Mr. <hi>Robert Morden.</hi> In large Folio. Price 32 <hi>s.</hi> in Sheets to Subſcribers till next Term, when it will be raiſed to 35 <hi>s.</hi> All which may be ſeen more at large in the Propoſals for printing this Book by Subſcription, to be had of the Undertakers <hi>Abel Swall</hi> and <hi>T. Child,</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> at the <hi>Weſt</hi>-end of St. <hi>Paul</hi>'s-Church<g ref="char:EOLhyphen"/>yard, and <hi>Awnſham</hi> and <hi>John Churchill</hi> at the <hi>Black Swan</hi> in <hi>Pa<g ref="char:EOLhyphen"/>ter-noſter-row:</hi> To whom if any Gentlemen pleaſe to ſend any Surveys of Counties or Remarks, that may any ways illuſtrate this Book, they ſhall be faithfully return'd without damage, and the Favour gratefully acknowledged.</p>
+               <p>The Third, Fourth, Fifth, and Sixth Volumes of the New Hiſto<g ref="char:EOLhyphen"/>ry of Eccleſiaſtical Writers. Written in <hi>French</hi> by <hi>Lewis Ellies du Pin.</hi> Carefully Engliſhed. Containing the Authors that flou<g ref="char:EOLhyphen"/>riſhed in he Fifth, Sixth, Seventh, and Eighth Centuries; <hi>viz.</hi> St. <hi>Chyſoſtom,</hi> St. <hi>Jerome,</hi> St. <hi>Auguſtin,</hi> St. <hi>Cyrall</hi> of <hi>Alexandria, Theodoret, Iſiodore Peluſiota, Philoſtorgius, Neſtorius, Nonnius, Socrates Scholaſticus, Sozomen.</hi> St. <hi>Hilary, Vincentius Lirinenſis, Caſſiodorus, Evagrius Scholaſticus, Gregory</hi> the Great, <hi>Joan. Cli<g ref="char:EOLhyphen"/>macus, Maximus, Theodorus</hi> Arch-Biſhop of <hi>Canterbury,</hi> Venerable <hi>Bede,</hi> St. <hi>John Damaſcene,</hi> with many others, which here is not room to mention. Together with a Hiſtory or all the Councils
+<pb n="25" facs="tcp:102164:14"/>held in thoſe Times; particularly of the General and Oecumenical Councils of <hi>Conſtantinople</hi> under St. <hi>Cyril,</hi> of <hi>Epheſus, Chalcedon,</hi> the ſecond of <hi>Conſtantinople,</hi> and the third of <hi>Conſtantinople.</hi> As alſo an Account of the Riſe and Condemnation of the <hi>Donatiſt, Ne<g ref="char:EOLhyphen"/>ſtorian, Pelagian,</hi> and other Hereſies; and in ſhort, a very parti<g ref="char:EOLhyphen"/>cular Account of all Eccleſiaſtical Writings and Matters, to the end of the Eighth Century.</p>
+               <p>
+                  <hi>All the four Volumes will be publiſhed this Term. Price to Subſcribers Eighteen ſhillings in Sheets. Printed for</hi> Abel Swall <hi>and</hi> Tim. Child, <hi>at the</hi> Unicorn <hi>at the</hi> Weſt <hi>end of St.</hi> Paul<hi>'s Church-yard.</hi>
+               </p>
+               <p>
+                  <hi>S. Patrum qui Temporibus Apoſtolorum Floruerunt S. Barnabae, Hermae, S. Clementis, S. Ignatii &amp; Polycarpi Opera, Gr. Lat<g ref="char:EOLhyphen"/>cum Notis J. Bapt. Cotelerii:</hi> To which is added Dr. <hi>Pear<g ref="char:EOLhyphen"/>ſon Vindiciae Ignatii,</hi> &amp;c. Of which a more particular Account will be ſhortly given. Printed for <hi>Abel Swall</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>ni<g ref="char:EOLhyphen"/>corn,</hi> and <hi>Sam. Smith</hi> and <hi>Benj. Walford</hi> at the <hi>Prince</hi>'s <hi>Arms</hi> in St. <hi>Paul</hi>'s Church-yard.</p>
+               <p>
+                  <hi>Origo Legum:</hi> Or, a Treatiſe of the Origin of Laws and their ob<g ref="char:EOLhyphen"/>liging Power; as alſo of their great Variety, and why ſome Laws are immutable, and ſome not, but may ſuffer Change, or ceaſe to be, or be ſuſpended, or abrogated. In ſeven Books. By <hi>Geo. Daw<g ref="char:EOLhyphen"/>ſon,</hi> M. A. <hi>&amp;c.</hi> Folio, <hi>Printed for</hi> R. Chiſwel <hi>at the</hi> Roſe <hi>and</hi> Crown <hi>in St.</hi> Paul<hi>'s Church-yard.</hi>
+               </p>
+               <p>The Hiſtory of the Edict of <hi>Nants,</hi> containing an Account of the moſt remarkable things that have happen'd in <hi>France,</hi> upon oc<g ref="char:EOLhyphen"/>caſion of diverſity of Religions, ſince the Publication thereof, and particularly of the Injuſtice, Artifices and Tricks that have been put upon the Proteſtants, to the Revocation of the ſame in <hi>October,</hi> 1685. With an Account of what has happen'd ſince the Edict of Revocation to this preſent. Written in <hi>French,</hi> by Monſ. <hi>Benoiſt,</hi> and publiſhed by Order of the States of <hi>Holland.</hi> Faithfully Engliſhed, will be ſpeedily printed for <hi>John Dunton</hi> at the <hi>Raven</hi> in the <hi>Poultrey.</hi>
+               </p>
+               <p>Hiſtory of the Devils of <hi>Loudun;</hi> or of the Poſſeſſion of the Nuns of St. <hi>
+                     <g ref="char:V">Ʋ</g>rſula,</hi> and the Condemnation of <hi>
+                     <g ref="char:V">Ʋ</g>rbain Grandier</hi> Curate of the ſame Town. Being an exact Account of the wicked Practices of certain Monks and Prieſts in <hi>France</hi> againſt a Pariſh Prieſt whom they long perſecuted, and at laſt cauſed to be barbarouſly executed upon pretence of his having bewitched the Nuns, who were taught by the Prieſts to commit very extravagant Actions, in order to com<g ref="char:EOLhyphen"/>paſs their wicked Deſign. Tranſlated from the <hi>French.</hi>
+               </p>
+               <p>
+                  <hi>Medulla Hiſtoriae Anglicanae,</hi> a compendious Hiſtory of the Monarchs of <hi>Great Britain,</hi> from the Time of <hi>Julius Caeſar</hi> to the end of the Reign of the late King <hi>James,</hi> 8<hi>vo.</hi>
+               </p>
+               <p>The Comedies of <hi>Terence,</hi> Engliſhed by ſeveral Hands; will be ſpeedily publiſhed.</p>
+               <pb n="26" facs="tcp:102164:15"/>
+               <p>
+                  <hi>Horace</hi> tranſlated after the manner of Monſieur <hi>Dacier</hi> in Proſe, with his Notes in Engliſh, corrected and improved by ſeveral Hands.</p>
+               <p>Two Comedies of <hi>Ariſtophanes, viz. Plutus</hi> and <hi>Nubes.</hi>
+               </p>
+               <p>Two Tragedies of <hi>Sophocles,</hi> viz. <hi>Oedipus</hi> and <hi>Electre.</hi>
+               </p>
+               <p>Three Comedies of <hi>Plautus;</hi> viz. <hi>Amphytrion, Rudens</hi> and <hi>Epi<g ref="char:EOLhyphen"/>dicus.</hi>
+               </p>
+               <p>
+                  <hi>All Tranſlated after the ſame manner, with the Notes of Mon<g ref="char:EOLhyphen"/>ſieur and Madame</hi> Dacier, <hi>corrected and improved by ſeveral Hands.</hi>
+               </p>
+               <p>All the Comedies of <hi>Monſieur Molîere,</hi> being 31 in Number; Engliſhed by ſeveral Hands.</p>
+               <p>
+                  <hi>John Sleidan</hi>'s Hiſtory of the Four Monarchies, Engliſhed.</p>
+               <p>
+                  <hi>Titus Lucretius Carus de Naturâ Rerum, interpretatione &amp; Notis Illuſtrat. Curâ Tho. Creech Oxon. Coll. ☉mn. Anim. So<g ref="char:EOLhyphen"/>cius,</hi> 8vo.</p>
+               <p>
+                  <hi>C. Valer. Catulli, Sex. Aur. Propertii &amp; Albii Tibulli Opera omnia, Interpretatione &amp; Notis illuſtravit Philip. Silvius. T. E. C. ad <g ref="char:V">Ʋ</g>ſum Delphini,</hi> 8vo.</p>
+               <p>
+                  <hi>C. Criſpi Salluſtii Opera, Interpretatione &amp; Notis illuſtravit D. Criſpinus ad <g ref="char:V">Ʋ</g>ſum Delphini,</hi> 8vo.</p>
+               <p>
+                  <hi>Eutropii Breviarium Hiſtoriae Romane ab Orbe Condita ad An<g ref="char:EOLhyphen"/>num ejuſdem <g ref="char:V">Ʋ</g>rbis</hi> MCXIX. <hi>Interpret. &amp; Notis illuſtravit Anna Tanaquil. Fabri Filia ad <g ref="char:V">Ʋ</g>ſum Delphini,</hi> 8vo.</p>
+               <p>ΑΝΑΚΡΕΟΝΤΟΣ ΤΗΛΟΥ ΜΕ'ΛΗ <hi>Anacreontis Teli Car<g ref="char:EOLhyphen"/>mina, plurimis quibus hactenùs ſcatebant mendis purgavit, Me<g ref="char:EOLhyphen"/>tra reſtituit, notiſque illuſtravit</hi> Wilhelmus Baxterus, <hi>Φιλελλυν. Subjiciuntur etiam aliorum Anacreontica Carmina unà cum duobus Odariis antiquae Poetriae Sapphus. Nec non Anacreontis Vita &amp; Interpretatio Latina. All printed by</hi> Abel Swall <hi>and</hi> T. Childe <hi>at the</hi> Unicorn <hi>in St.</hi> Paul<hi>'s Church-yard.</hi>
+               </p>
+               <p>A Volume of Sermons, by <hi>William Bates</hi> D. D. will be publi<g ref="char:EOLhyphen"/>ſhed in <hi>Trinity</hi> Term. to be ſold by <hi>Jonathan Robinſon</hi> at the <hi>Golden Lion</hi> in St. <hi>Paul</hi>'s <hi>Church-yard.</hi>
+               </p>
+               <p>A Survey of the whole Bible, containing an Analytical Account, or Diviſion of all the Holy Scriptures; affording a pleaſant pro<g ref="char:EOLhyphen"/>ſpect into the ſeveral Rooms of this ſacred Edifice, and the variety of Furniture contained in them. This is a Book exceeding uſeful both for Miniſters to ſhew the Coherence and Connexion of the Text, <hi>&amp;c.</hi> and alſo for private Chriſtians in their reading the Scri<g ref="char:EOLhyphen"/>pture: And is deſign'd as a Supplement to Mr. <hi>Clark</hi>'s Annotations; it is propoſed to be printed by Subſcription, and will be publiſhed by <hi>Michaelmas</hi> next, in 4<hi>to.</hi> Price ſeven Shillings to Subſcribers. Printed for <hi>Jonathan Robinſon,</hi> where may be had Propoſals with a Specimen.</p>
+               <p>This Term will be finiſhed that ſo long expected Book, The Re<g ref="char:EOLhyphen"/>mains of Monſieur St. <hi>Euremont</hi>'s Eſſays, the moſt pars Tranſlated
+<pb n="27" facs="tcp:102164:15"/>by Mr. <hi>Tho. Browne,</hi> printed for <hi>Abel Roper</hi> at the <hi>Mitre</hi> near <hi>Tem<g ref="char:EOLhyphen"/>ple-bar,</hi> and <hi>J. Everingham</hi> at the <hi>Star</hi> in <hi>Ludgate-ſtreet.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Some BOOKS lately Printed and Print<g ref="char:EOLhyphen"/>ing Beyond-Sea.</head>
+               <p>AMmianus Marcellinus cum notis varior. fol. fig.</p>
+               <p>— Idem <hi>4.</hi> fig.</p>
+               <p>Bocharti Opera Omnia, fol. <hi>3.</hi> tom.</p>
+               <p>Cypriani Opera cum notis Epiſcopi Oxonienſis, fol.</p>
+               <p>Crenii methodus ſtudiorum benè inſtituendorum. <hi>4.</hi>
+               </p>
+               <p>— Faſciculus diſſertationum <hi>8.</hi>
+               </p>
+               <p>Lactantius de Mortibus Perſecutorum cum notis variorum, <hi>8.</hi>
+               </p>
+               <p>ATlas nouveau par Sanſon, contenant toutes les Cartes Geo<g ref="char:EOLhyphen"/>graphiques du Monde pour l'uſage de M. le Dauphin dans un grand Volume fol. <hi>1693.</hi>
+               </p>
+               <p>Architecture nouvelle des Anciens &amp; des Modernes par Vignole &amp; autres, avec un Dictionaire d' Architecture &amp; des notes par Da<g ref="char:EOLhyphen"/>viler, <hi>4.2.</hi> vol. fig. <hi>1693.</hi>
+               </p>
+               <p>Bentivoglio Lettres diverſes Italien &amp; François <hi>12.</hi>
+               </p>
+               <p>Cours de Philoſophie, ſuivant le ſyſteme &amp; les principes de Deſcartes, par M. Regis, <hi>4.3.</hi> vol. fig.</p>
+               <p>Comedies d'Ariſtophane par Dacier, <hi>12.</hi>
+               </p>
+               <p>Comedies de Plaute, latin &amp; François avec les Notes de M. Da<g ref="char:EOLhyphen"/>cier, <hi>12.3.</hi> vol.</p>
+               <p>Cartes Geographiques de Sanſon à l'uſage du Dauphin en grand Papier.</p>
+               <p>Comparaiſon des grands hommes de l'antiquité &amp; des mo<g ref="char:EOLhyphen"/>dernes par M. Perrault de l'Academie des Sciences, <hi>12.2.</hi> vol. <hi>1693.</hi>
+               </p>
+               <p>Dictionaire Hiſtorique de Moreri, fol. <hi>4.</hi> vol. avec additions.</p>
+               <p>Dictionaire nouveau François &amp; Latin de Tachard, Bouhours &amp; autres, <hi>4</hi>
+               </p>
+               <p>Latin &amp; François de Tachard, <hi>4.</hi>
+               </p>
+               <p>Elements de Mathematiques du P. l' Amy, <hi>12.</hi> fig.</p>
+               <p>— de Geometrie de Port Royal, <hi>12.</hi> fig.</p>
+               <p>— de Geometrie du P. l' Amy, <hi>8</hi> fig.</p>
+               <p>Forces de l' Europe avec le Plan de toutes les places fortes, par M. de Vauban, <hi>4. 1693.</hi>
+               </p>
+               <p>— <hi>8.</hi> fig. François &amp; Alleman.</p>
+               <p>Fauſſeté des Vertus humaines avec les Reflexions de M. de la Rochefoucaut par M. Eſprit de l' Academie Françoiſe. <hi>12.</hi>
+               </p>
+               <p>Geographie univerſelle par la Croix, <hi>12.4.</hi> tom. fig. &amp; Cartes. Geometrie practique d' Ozanam, <hi>12.</hi>
+               </p>
+               <pb n="28" facs="tcp:102164:16"/>
+               <p>Genealogie des Dieux, ou methode pour apprendre la fable he<g ref="char:EOLhyphen"/>roique, <hi>12.</hi>
+               </p>
+               <p>Hiſtoire de Guillaume III. Roi d' Angleterre, avec fig. &amp; toutes les Medailles. fol. <hi>1693.</hi>
+               </p>
+               <p>— du Prince de Condé, <hi>12. 1693.</hi>
+               </p>
+               <p>— des Conciles Generaux commençant par celuy de Nicée, <hi>4.</hi>
+               </p>
+               <p>Inſtruction pour les gens de guerre, pour les armes à feu, Ca<g ref="char:EOLhyphen"/>non, Bombes &amp; Carcaſſes, &amp; la maniere de conduire l' Artillerie à la maniere des François, <hi>12.</hi> fig.</p>
+               <p>Nouvelle Grammaire Grecque de Port Royal, <hi>12.</hi>
+               </p>
+               <p>— Latine deſdits, <hi>12.</hi>
+               </p>
+               <p>Nouvelles Operations de Chirurgie par la Chariere, <hi>12.</hi>
+               </p>
+               <p>Oeuvres diverſes de M. Patru, contenant ſes Playdoyers, ha<g ref="char:EOLhyphen"/>rangues, lettres, &amp; autres Oeuvres, <hi>12.2.</hi> vol. <hi>1693.</hi>
+               </p>
+               <p>— de Lucrece Latin &amp; François, <hi>12.2.</hi> vol.</p>
+               <p>— de Poeſies d' Anacreon, &amp; de Sapho en Vers François par Mr. de Longepierre, avec le Grec à côté, <hi>12. 1693.</hi>
+               </p>
+               <p>Oeuvres d' Horace, <hi>12.10.</hi> vol. Latin François de la Traduction de M. Dacier avec Notes.</p>
+               <p>Penſées ingenieuſes des Anciens &amp; des modernes par le P. Bou<g ref="char:EOLhyphen"/>hours, <hi>12.</hi>
+               </p>
+               <p>Pratique de Geometrie ſur le terrain &amp; ſur le papier par le Clerc, <hi>12.</hi> fig.</p>
+               <p>Parallele ou comparaiſon des Anciens &amp; des Modernes par Mr. Perrault, <hi>12. 1693.</hi>
+               </p>
+               <p>Quinte Curce Latin &amp; François de M. de Vaugelas, <hi>12.2.</hi> tom. <hi>1693.</hi>
+               </p>
+               <p>Remarques nouvelles ſur la langue Françoiſe par Bouhours, <hi>12.</hi>
+               </p>
+               <p>Recueil des Poeſies des meilleurs Poetes François, <hi>12.5.</hi> tom. par. M. Daunois.</p>
+               <p>Sophocle Tragedies Grecques traduites en François par M. Da<g ref="char:EOLhyphen"/>cier, <hi>12.</hi>
+               </p>
+               <p>Satyres de Juvenal &amp; de Perſe nouvellement traduits <hi>12.2.</hi> vol. Latin &amp; François.</p>
+               <p>Memoires de Tekeli <hi>12.</hi>
+               </p>
+               <p>Le Cabinet des beaux Arts &amp; des Science par M. Perrault de l' Academie des Sciences, <hi>4.</hi> fig.</p>
+               <p>Recueil des Traitez de paix entre la France &amp; les autres Eſtats de l' Europe <hi>4</hi>to. <hi>6.</hi> Vol. Paris. <hi>1693.</hi>
+               </p>
+               <p>Hiſt. de l'Edit de Nantes <hi>40. 1.</hi> &amp; <hi>2.</hi> Tom. Roterdam <hi>1693.</hi>
+               </p>
+               <p>De la Tolerance des Proteſtants <hi>120.</hi> Paris <hi>1693.</hi>
+               </p>
+               <p>Reflexions d'un Academicien. Paris <hi>1693. 120.</hi>
+               </p>
+               <p>Reflexions ſur le Jugement des ſcavans Paris <hi>1693. 120.</hi>
+               </p>
+               <p>Hiſt. des Troubles d' Angleterre <hi>4</hi> to. <hi>2.</hi> Vol. Paris <hi>1693.</hi>
+               </p>
+               <p>La Bataille de Darius &amp; Alexandre, gravée d'aprés le Ta<g ref="char:EOLhyphen"/>bleau de M. le Brun.</p>
+               <p>La Bataille d' Alexandre &amp; de Porus, de meſme.</p>
+               <pb n="29" facs="tcp:102164:16"/>
+               <p>Le Paſſage du Granique, de meſme.</p>
+               <p>La Tente de la Famille de Darius, de meſme.</p>
+               <p>L' Entrée de Babilone, de meſme, <hi>all five Engraved by the beſt Maſters, from the Draughts of Monſieur</hi> le Brun, <hi>and printed on five large ſheets.</hi>
+               </p>
+               <p>
+                  <hi>Two Proſpects of</hi> the Baſſe, <hi>an Iſland in</hi> Scotland, <hi>exactly Drawn and curiouſly Engraven on two large Copper Plates, and printed on a Sheet of Royal Paper.</hi>
+               </p>
+               <p>
+                  <hi>A Proſpect of the new building of</hi> Chelſey-College, <hi>very finely Engraven, and Printed on a Sheet of Royal Paper.</hi>
+               </p>
+               <p>
+                  <hi>Monſ.</hi> Sanſon<hi>'s Maps of all the Parts of the World, Corrected and newly publiſhed by his Son; together with Geographical Ta<g ref="char:EOLhyphen"/>bles of the Diviſions of the four parts of the World, and of the ſeveral Nations of</hi> Europe; <hi>The whole Collection being 70 Maps in two large Sheets each, 25 Maps in one Sheet each, and 19 Tables of the Diviſions of the World; all three Sold by</hi> Abel Swall <hi>and</hi> T. Child <hi>at the</hi> 
+                  <g ref="char:V">Ʋ</g>nicorn <hi>in St.</hi> Paul<hi>'s</hi> Church-yard.</p>
+            </div>
+            <div type="part">
+               <head>APPENDIX.</head>
+               <p>
+                  <hi>DOctiſſimi Clariſſimique</hi> Gerardi Joannis Voſſii <hi>&amp; ad eum Virorum Eruditione Celeberrimorum Epiſtolae; quas in<g ref="char:EOLhyphen"/>ter centum ferme numerantur Illuſtriſſ.</hi> Guil. Laud <hi>Archiep. Cant.</hi> Ja. Uſſerii <hi>Armachani,</hi> Joa. Seldeni, Hug. Grotii, Claud. Salma<g ref="char:EOLhyphen"/>ſii, Edv. Pocockii, Tho. Farnabii, Jo. Meurſii, Ez. Puteani, Jo. Fr. Gronovii, Pet. Cunaei, <hi>&amp;</hi> Gaſp. Scioppii, <hi>multa praeclara Theolo<g ref="char:EOLhyphen"/>gica, Critica, Hiſtorica, Philoſophica, complexae; Opus omnibus Philologiae &amp; Eccleſiaſticae Antiquitatis Studioſis utiliſſimum ex Autographis Mſs. Collegit &amp; ordine ſecundum ſingula tempora digeſſit</hi> Paulus Colomeſius <hi>Eccleſiae Anglicanae Presbyter. Itera<g ref="char:EOLhyphen"/>ta Editio, rerum Indice uberrimo aucta.</hi> Londini; <hi>proſtant vena<g ref="char:EOLhyphen"/>les apud</hi> S. Smith <hi>&amp;</hi> B. Walford <hi>Societatis Regiae Typographos ad inſignia principis in Coemeterio D.</hi> Pauli 1693. <hi>folio.</hi>
+               </p>
+               <p>MONASTICON ANGLICANUM: Or, the Hiſtory of the ancient Abbies and other Monaſteries, Hoſpitals, Cathedral and Collegiate Churches in <hi>England</hi> and <hi>Wales,</hi> with divers <hi>French, Iriſh,</hi> and <hi>Scotch</hi> Monaſteries, formerly relating to <hi>England;</hi> Col<g ref="char:EOLhyphen"/>lected and publiſhed in Latin, by Sir <hi>William Dugdale,</hi> Knight, late <hi>Garter</hi> King of Arms, and now epitomized in <hi>Engliſh,</hi> Page by Page in Folio. Printed for <hi>Sam. Keeble</hi> at the <hi>Turk</hi>'s-<hi>Head</hi> in <hi>Fleet-ſtreet,</hi> and <hi>Hen. Rhodes</hi> at the <hi>Star</hi> at the Corner of <hi>Bride<g ref="char:EOLhyphen"/>lane</hi> in <hi>Fleet-ſtreet.</hi>
+               </p>
+               <p>A Work in the Original in effect the moſt uſeful Eviden<g ref="char:EOLhyphen"/>tiary and Repertory of Titles that is in print, conſidering, firſt
+<pb n="30" facs="tcp:102164:17"/>the vaſt Quantity of Lands which formerly belonged to the Re<g ref="char:EOLhyphen"/>ligious Houſes in this Kingdom. 2. The divers ſorts of Liberties and Immunities, which moſt of thoſe Houſes and their Poſſeſſions were endowed with. Thirdly, That by the Statutes, 27 <hi>H.</hi> 8. <hi>Ch.</hi> 28. §. 1. &amp; 31. <hi>H.</hi> 8. <hi>Ch.</hi> 13. §. 2.3. It is provided that the King and his Patentees ſhall have and hold the ſaid Lands in as large and ample manner as the ſaid Houſes enjoyed them; and in §. 21. of the laſt-mentioned Statute, that ſuch Lands as were before diſchar<g ref="char:EOLhyphen"/>ged of the Payment of Tiths ſhould ſo continue; with many other uſeful things both in the Common Laws, Hiſtory and Heraldry: And as it is in the Original, ſo is it in the Engliſh Epitomies, being done by one no leſs learned than ingenious, which the Reader will eaſily perceive by his Work; wherein he will find an Hiſtorical Ac<g ref="char:EOLhyphen"/>count of the Foundation of all Primitive Churches and Religious Structures in <hi>England</hi> and <hi>Wales,</hi> as well thoſe that were demoliſht at the Suppreſſion of Monaſteries as thoſe that are ſtill in being; with the Cuts of all the Religious Habits, and many other things both uſe<g ref="char:EOLhyphen"/>ful, pleaſing, and profitable to the Reader.</p>
+               <p>
+                  <hi>Plutarch</hi>'s Lives, Tranſlated by ſeveral hands, newly Reprinted. 5. Vol in 8<hi>vo.</hi> Printed for <hi>Jacob Tonſon</hi> at the <hi>Judge</hi>'s-<hi>head</hi> in <hi>Chancery-lane.</hi>
+               </p>
+               <p>
+                  <hi>M. Velleii Paterculi quae ſuperſunt. Cum variis Lectionibus Optimarum Editionum; Doctorum Virorum Conjecturis &amp; Caſtiga<g ref="char:EOLhyphen"/>tionibus; &amp; Indice Locupletiſſimo. Praemittuntur Annales Velleia<g ref="char:EOLhyphen"/>ni,</hi> 8<hi>vo.</hi> Oxon, <hi>è Theatro. Proſtant Venales apud</hi> J. Croſley, G. Weſt, H. Clements, <hi>&amp;</hi> J. Howel. 1693.</p>
+               <p>The Chriſtians Manual, in two parts: 1. The Catechumen, or an account given by the young Perſon of his knowledge in Reli<g ref="char:EOLhyphen"/>gion, before his admiſſion to the Lord's Supper, as a ground-work for the right underſtanding of the Sacrament. 2. An Introduction to the Sacrament, or a ſhort, ſafe, and plain way to the Commu<g ref="char:EOLhyphen"/>nion-Table; being Inſtructions for the Worthy Receiving the Lord's-ſupper; to which is added the Communicants Aſſiſtant; be<g ref="char:EOLhyphen"/>ing Devotions to that purpoſe; fitted to be uſed <hi>before, at,</hi> and <hi>af<g ref="char:EOLhyphen"/>ter</hi> the receiving of the Bleſſed Sacrament: Collected for, and fa<g ref="char:EOLhyphen"/>miliarly addreſſed to every particular Communicant; by <hi>L. Addi<g ref="char:EOLhyphen"/>ſon,</hi> D. D. Dean of <hi>Litchfield,</hi> the fourth Edition. Printed for <hi>Will. Crook</hi> at the <hi>Green Dragon</hi> without <hi>Temple-bar.</hi>
+               </p>
+               <p>The Gentleman's Journal: or the Monthly Miſcellany. In a Letter to a Gentleman in the Country: conſiſting of News, Hiſtory, Phi<g ref="char:EOLhyphen"/>loſophy, Poetry, Muſick, Tranſlations, <hi>&amp;c.</hi> for the Month of <hi>May</hi> 1693. The ſame for the Month of <hi>June,</hi> will be publiſhed by the 1ſt. of <hi>July.</hi> ſold by <hi>R. Parker</hi> at the <hi>
+                     <g ref="char:V">Ʋ</g>nicorn</hi> in the <hi>Piazza,</hi> under the <hi>Royal Exchange</hi> in <hi>Cornhil;</hi> and <hi>R. Baldwin</hi> near the <hi>Oxford-Arms</hi> in <hi>Warwick-lane.</hi>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
